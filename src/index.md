@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: How to black
-      link: /how-to-black
+      link: /blacking/how-to/black
     - theme: alt
       text: How to white
-      link: /api-examples
+      link: /how-to-white
 
 features:
   - title: Good
