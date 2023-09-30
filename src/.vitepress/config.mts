@@ -14,7 +14,7 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#ddd' }],
     ['meta', { name: 'og:type', content: 'website' }],
     ['meta', { name: 'og:locale', content: 'en' }],
-    ['meta', { name: 'og:site_name', content: 'Miditerranenan C' }],
+    ['meta', { name: 'og:site_name', content: 'Miditerranaenyan C' }],
     ['meta', { name: 'og:title', content: 'deez notes. gotem' }],
     ['meta', { name: 'og:description', content: 'A collection of articles, guides, and indices containing information and opinion about the music genre involving MIDI files with huge amount of musical notes played simultaneously.' }],
     ['meta', { name: 'og:image', content: 'https://rin-w.github.io/b/favicon.ico' }],
