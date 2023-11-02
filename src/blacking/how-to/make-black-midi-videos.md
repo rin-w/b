@@ -45,7 +45,7 @@ You can use MIDI converters to create an audio file of your MIDI to be used to
 attach to videos, so synchronizing issues will be reduced. Alternatively, you
 could record a live playback. Here are some tutorials for it:
 
-- [How to use Keppy's MIDI Converter](/software/synthesizer/keppy-midi-converter)
+- [How to use Keppy's MIDI Converter](/software/synthesizer/renderer/keppy-midi-converter)
 - [How to record synthesizer audio live](/software/insight/record-midi-live-with-audacity)
 
 ## Visuals {data-step="2"}
