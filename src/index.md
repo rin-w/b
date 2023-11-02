@@ -1,11 +1,13 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "black balls"
-  text: "oui"
-  tagline: "a midi black midi wiki wiki black"
+  name: "black MIDI"
+  text: "songs"
+  tagline: "won't kill you nor your brain"
+  image:
+    src: /home.gif
+    alt: b
   actions:
     - theme: brand
       text: How to black
@@ -15,11 +17,12 @@ hero:
       link: /how-to-white
 
 features:
-  - title: Good
-    details: This wiki is very good.
-  - title: Nice
-    details: It is also nice.
-  - title: Cool
-    details: More importantly, it is cool. \r\n how do I add text colors
+  - title: Parousia
+    details: God will return back home again to witness the delight of piano crash.
+    link: /god
+    icon: 𓆩♡𓆪😇🙏
+  - title: Barack Obama
+    details: He approves of this genre. He said it when he accidentally met me at Los Chiminea Downtown St.
+    icon: 
+      src: /obama.webp
 ---
-

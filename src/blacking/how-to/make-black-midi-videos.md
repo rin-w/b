@@ -8,7 +8,7 @@ the genre on shaping its culture and long-term standing.
 ::: details Video: [YOASOBI - アイドル (Han SeRin; Landrys; NewFall2023)][a] {open}
 
 <iframe
-  src="https://youtube.owacon.moe/embed/IhbBqNzHSJY"
+  src="https://youtube.com/embed/IhbBqNzHSJY"
   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
   frameborder="0" 
   allowfullscreen
@@ -38,6 +38,15 @@ but here are some tutorials on how you can make your Black MIDI audio sound
 clear, and balanced.
 
 - Black MIDI audio mastering
+
+### File generation
+
+You can use MIDI converters to create an audio file of your MIDI to be used to
+attach to videos, so synchronizing issues will be reduced. Alternatively, you
+could record a live playback. Here are some tutorials for it:
+
+- [How to use Keppy's MIDI Converter](/software/synthesizer/keppy-midi-converter)
+- [How to record synthesizer audio live](/software/insight/record-midi-live-with-audacity)
 
 ## Visuals {data-step="2"}
 

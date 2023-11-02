@@ -136,13 +136,12 @@ You can change further settings of the synth for playback optimization or
 experimentation. There are also some available presets to choose from
 according to your needs.
 
-### Options
+![keppy synth config showing advanced configuration options](/kepysynth_settings.webp)
 
 The `Audio engine` is the engine for the audio. Currently, WASAPI is the most
 efficient audio engine of the synth. You may change it if you are having
 issues with other engines.
 
-![keppy synth config showing advanced configuration options](/kepysynth_settings.webp)
 
 Each checkbox will create some form of performance degradation when toggled on,
 but results in compromise in audio quality when toggled off
@@ -198,7 +197,7 @@ a 'quantized' sound.
 
 Here are some programs where you can use Keppy's Driver:
 
-- [Piano From Above](/software/midi-player/piano-from-above)
+- [Piano From Above](/software/midi-visualizer/piano-from-above)
 
 ## Footnotes
 

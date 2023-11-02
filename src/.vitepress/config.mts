@@ -5,7 +5,7 @@ export default defineConfig({
 
   base: '/b/',
 
-  title: "Miditerranaenyan C",
+  title: "Miditerraenyan C",
 
   description: "A Black MIDI wiki",
 
@@ -14,7 +14,7 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#ddd' }],
     ['meta', { name: 'og:type', content: 'website' }],
     ['meta', { name: 'og:locale', content: 'en' }],
-    ['meta', { name: 'og:site_name', content: 'Miditerranaenyan C' }],
+    ['meta', { name: 'og:site_name', content: 'Miditerraenyan C' }],
     ['meta', { name: 'og:title', content: 'deez notes. gotem' }],
     ['meta', { name: 'og:description', content: 'A collection of articles, guides, and indices containing information and opinion about the music genre involving MIDI files with huge amount of musical notes played simultaneously.' }],
     ['meta', { name: 'og:image', content: 'https://rin-w.github.io/b/favicon.ico' }],
@@ -32,13 +32,6 @@ export default defineConfig({
       { text: 'index', link: '/indices/pitch' },
     ],
 
-    sidebar: {
-      '/blacking/': { items: sidebarBlacking() },
-      '/soundfont/': { items: sidebarSoundfont() },
-      '/software/': { base: '/software/', items: sidebarSoftware() },
-      '/indices/': { base: '/indices/', items: sidebarIndices() },
-    },
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/rin-w/b'},
       { icon: 'discord', link: 'https://discord.gg/m5GsaaXNHy' },
@@ -53,9 +46,21 @@ export default defineConfig({
       },
     ],
     
+    sidebar: {
+      '/blacking/': { items: sidebarBlacking() },
+      '/soundfont/': { items: sidebarSoundfont() },
+      '/software/': { base: '/software/', items: sidebarSoftware() },
+      '/indices/': { base: '/indices/', items: sidebarIndices() },
+    },
+
+    outline: {
+      level: [2, 3],
+      label: 'Sections'
+    },
+
     search: {
       provider: 'local'
-    }
+    },
 
   },
 
@@ -91,7 +96,6 @@ function sidebarBlacking(): any[] {
         { text: 'Playing', link: 'play-black-midis' },
         { text: 'Creating', link: 'make-black-midis' },
         { text: 'Capturing', link: 'make-black-midi-videos' },
-        { text: 'Miscellaneous', link: 'miscellaneous' },
       ]
     },
     {
@@ -99,10 +103,9 @@ function sidebarBlacking(): any[] {
       base: '/blacking/insight/',
       collapsed: false,
       items: [
-        { text: 'some', link: '' },
-        { text: 'body', link: '' },
-        { text: 'once', link: '' },
-        { text: 'told', link: '' },
+        { text: 'Insight One', link: '' },
+        { text: 'Insight Two', link: '' },
+        { text: 'Black MIDI Audio Mastering', link: '' },
       ]
     },
     { text: 'Terminologies', link: '/indices/black-midi-terminologies' },
@@ -121,13 +124,29 @@ function sidebarSoftware(): any[] {
       base: '/software/synthesizer/',
       items: [
         { text: 'OmniMIDI', link: 'keppy-synth' },
+        { 
+          text: 'Renderers', 
+          base: '/software/synthesizer/renderer',
+          collapsed: false,
+          items: [
+            { text: "Keppy's MIDI Converter" , link: 'keppy-midi-converter' },
+          ]
+        },
       ]
     },
     {
-      text: 'MIDI Players',
-      base: '/software/midi-player/',
+      text: 'MIDI Visualizers',
+      base: '/software/midi-visualizer/',
       items: [
         { text: 'Piano From Above', link: 'piano-from-above' },
+        { 
+          text: 'Renderers', 
+          base: '/software/midi-visualizer/renderer',
+          collapsed: false,
+          items: [
+            { text: 'Zenith', /*link: 'zenith'*/ },
+          ]
+        },
       ]
     },
     {
@@ -136,26 +155,45 @@ function sidebarSoftware(): any[] {
       collapsed: false,
       items: [
         { text: 'REAPER', link: 'reaper' },
-        { text: 'FL Studio', link: 'fl-studio' },
-        { text: 'Domino', link: 'domino' },
+        { text: 'FL Studio', /*link: 'fl-studio'*/ },
+        { text: 'Domino', /*link: 'domino'*/ },
       ]
     },
     {
       text: 'MIDI Generators',
-      base: '/software/midi-editor/',
+      base: '/software/midi-generators/',
       items: [
-        { text: 'ImageToMIDI', link: 'image-to-midi' },
+        { text: 'ImageToMIDI', /*link: 'image-to-midi'*/ },
+        { text: 'Color Events', /*link: 'color-events'*/ },
       ]
     },
     {
       text: 'Soundfont Tools',
       base: '/software/soundfont/',
       items: [
-        { text: 'Audacity (ft. ffmpeg)', link: 'audacity' },
-        { text: 'Polyphony', link: 'polyphony' },
-        { text: 'Extreme Sample Converter', link: 'extreme-sample-converter' },
-        { text: 'sfq', link: 'sfq' },
-        { text: 'Bulk Rename Utility', link: 'bru' },
+        { text: 'Audacity (ft. ffmpeg)', /*link: 'audacity'*/ },
+        { text: 'Polyphone', /*link: 'polyphone'*/ },
+        { text: 'Extreme Sample Converter', /*link: 'extreme-sample-converter'*/ },
+        { text: 'sfq', /*link: 'sfq'*/ },
+        { text: 'Bulk Rename Utility', /*link: 'bru'*/ },
+      ]
+    },
+    {
+      text: 'Miscellaneous',
+      base: '/software/misc/',
+      items: [
+        { text: '4GB Patch', link: '4gb-patch' },
+        { text: 'MIDI Visualizer Framedump', /*link: 'synthesia-framedump'*/ },
+      ]
+    },
+    {
+      text: 'Sofware Insight',
+      base: '/software/insight/',
+      items: [
+        { 
+          text: 'Live MIDI Recording (ft. Audacity)',
+          link: 'record-midi-live-with-audacity'
+        },
       ]
     },
   ]
@@ -168,7 +206,10 @@ function sidebarSoundfont(): any[] {
       base: '/soundfont/how-to/',
       collapsed: false,
       items: [
-        { text: 'Introduction', link: 'intro' },
+        { text: 'Introduction', /*link: 'intro'*/ },
+        { text: 'Generating Samples', /*link: 'generate-samples'*/ },
+        { text: 'Post-processing', /*link: 'post-process'*/ },
+        { text: 'Packaging', /*link: 'pack'*/ },
       ]
     },
     {
@@ -182,7 +223,7 @@ function sidebarSoundfont(): any[] {
         { text: 'told', link: '' },
       ]
     },
-    { text: 'Terminologies', link: '/indices/soundfont-terminologies' },
+    { text: 'Terminologies', /*link: '/indices/soundfont-terminologies'*/ },
     { text: 'Software Usage', link: '/software/pitch' },
   ]
 }
@@ -196,19 +237,27 @@ function sidebarIndices(): any[] {
       items: [
         {
           text: 'Black MIDI Terms',
-          link: 'black-midi-terminologies',
+          // link: 'black-midi-terminologies',
+        },
+        {
+          text: 'Soundfont Terms',
+          // link: 'soundfont-terminologies',
         },
         {
           text: 'List of MIDI Editors',
-          link: 'list-of-midi-editors',
+          // link: 'list-of-midi-editors',
         },
         {
-          text: 'List of MIDI Players',
-          link: 'list-of-midi-players',
+          text: 'List of MIDI Visualizers',
+          // link: 'list-of-midi-visualizers',
         },
         {
           text: 'List of MIDI Generators',
-          link: 'list-of-midi-generators',
+          // link: 'list-of-midi-generators',
+        },
+        {
+          text: 'List of the GOAT Blackers',
+          // link: 'list-of-the-goat-blackers',
         },
       ]
     },

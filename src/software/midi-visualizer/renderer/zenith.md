@@ -1,0 +1,8 @@
+
+<!--
+
+### MIDITrail++ Camera presets
+
+/!\
+
+-->

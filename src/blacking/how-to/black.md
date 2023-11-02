@@ -6,7 +6,7 @@
 ::: details Video: [ZUN - Bad Apple!! (HwaMyu)][a] {open}
 
 <iframe
-  src="https://youtube.owacon.moe/embed/twaJeiD-hnw?t=13"
+  src="https://youtube.com/embed/twaJeiD-hnw?t=13"
   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
   frameborder="0" 
   allowfullscreen

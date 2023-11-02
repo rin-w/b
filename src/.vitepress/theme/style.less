@@ -169,13 +169,55 @@ a.footnote-backref {
  * theme overrides
  * -------------------------------------------------------------------------- */
 
+@media (min-width: 1440px) {
+  .VPNavBar.has-sidebar .curtain[data-v-cf6e7c5e] {
+    width: 100%;
+  }
+}
+
+@media (min-width: 960px) {
+  .VPNavBar.has-sidebar .curtain[data-v-cf6e7c5e]::before {
+    background: linear-gradient(var(--vp-c-bg-alt), transparent 70%);
+    z-index: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .DocSearch-Button {
+    background-color: var(--ul-block-bg);
+  }
+}
 :root {
+  --tint-1a: #F5C49C;
+  --tint-1b: #FDE6DA;
+  --tint-2a: #80D4C7;
+  --tint-3a: #FFAFAF;
+  --tint-4: #A03B51;
   --r-icon-filter: invert(1);
   --s-color: #0002;
+  --bg-f: #00000007;
   --ul-block-bg: #00000005;
+
+  --c-lnk: var(--tint-4);
+  --c-lnk-h: #87B219;
+  --code: #1422EA;
+
+  --vp-nav-bg-color: var(--vp-c-bg-alt);
+  --vp-home-hero-name-background: linear-gradient(50deg, #f9E 40px, var(--tint-2a) 50%, var(--tint-3a) 70%);
+  --vp-home-hero-image-background-image: linear-gradient(50deg, var(--tint-1a) 40px, var(--tint-2a) 50%, var(--tint-3a) 70%);
+  --vp-home-hero-image-filter: blur(69px) opacity(.5);
+  --vp-button-brand-bg: var(--tint-4);
+
+  --vp-c-brand-1: var(--c-lnk);
+  --vp-c-brand-2: var(--c-lnk-h);
+  --vp-code-color: var(--code);
+  --vp-local-search-highlight-bg: var(--p-lnk-h-glow);
+  --vp-local-search-highlight-text: var(--c-txt-contrast);
 }
 
 .dark:root {
+  --tint-4: #b14f64;
+
   --icon-filter: invert(1);
   --icon-filter-l: invert(.8);
   --r-icon-filter: unset;
@@ -185,12 +227,15 @@ a.footnote-backref {
   --txt-primary: 15px;
 
   --s-color: #fff2;
+  --bg-f: #0002;
+
+  --vp-home-hero-name-background: linear-gradient(50deg, var(--tint-1b) 40px, var(--tint-2a) 50%, var(--tint-3a) 70%);
+  --vp-home-hero-image-background-image: linear-gradient(50deg, var(--tint-1b) 40px, var(--tint-2a) 50%, var(--tint-3a) 70%);
+  --vp-home-hero-image-filter: blur(69px) opacity(.2);
 
   --scroll-hand: #fff3;
   --scroll-bg: #fff1;
   --menu-sep: #4D060CAA;
-  --c-lnk: #87B219;
-  --c-lnk-h: #A03B51;
   --c-lnk-bg: #82A05E22;
   --c-sub-head: #99C8FB;
   --c-p-lnk: #bbb;
@@ -205,6 +250,7 @@ a.footnote-backref {
   --c-sbg-f: #121212;
   --c-toc-lv1: var(--c-p-lnk);
   --c-toc-lv2: var(--c-p-sub-lnk);
+  --code: #DCD322;
   --head-2-bg: #6D030B;
   --list-panel-bg: #6a6a6a17;
   --item-body-bg: #111;
@@ -232,12 +278,6 @@ a.footnote-backref {
 
   --c-70-light: #fff7;
 
-  --vp-c-brand-1: var(--c-lnk);
-  --vp-c-brand-2: var(--c-lnk-h);
-  --vp-code-color: #DCD322;
-  --vp-local-search-highlight-bg: var(--p-lnk-h-glow);
-  --vp-local-search-highlight-text: var(--c-txt-contrast);
-
 }
 
 a[target="_blank"]::after {
@@ -247,7 +287,6 @@ a[target="_blank"]::after {
 h1, h2, h3, h4, h5, h6 {
   color: var(--c-txt-primary);
 }
-
 
 h3 {
   align-items: center;
@@ -288,6 +327,18 @@ p {
 
 i[title], p > span[title] {
   text-decoration: underline dotted;
+}
+
+.Layout {
+  background: repeating-linear-gradient(60deg, var(--bg-f) 10px, transparent 47px);
+}
+
+.VPContent {
+  background: radial-gradient(transparent 40%, var(--vp-c-bg));
+}
+
+.VPNav > .has-sidebar {
+  background-color: var(--vp-c-bg-alt);
 }
 
 .vp-doc .custom-block {

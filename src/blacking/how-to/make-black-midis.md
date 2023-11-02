@@ -14,9 +14,11 @@ megabytes to be able to use a MIDI editor.
 ::: details *Domino* (Windows, freeware, [English (v1.43)][dome]; [Japanese (v1.44)][doms] x86 (stable); [Japanese (v1.45)][doml], x64 (beta))
 
 Currently the fastest and lightweight freeware MIDI editor known to man.
-Its user interface looks like the classic [Windows Forms appearance][wf]{title="because it is, and it's written in C++"}.
+Its user interface looks like the classic 
+[Windows Forms appearance][wf]{title="because it is, and it's written in C++"}.
 It features custom keybindings, nifty method of MIDI device integrations,
-various piano roll tools and key scaling highlights, <i title="A single piano roll view of the note arrangements of multiple tracks">
+various piano roll tools and key scaling highlights, 
+<i title="A single piano roll view of the note arrangements of multiple tracks">
 Onion Skin</i>, etc. However, it refuses to load MIDIs that have multi-tracked
 channels.[^w] It was originally in Japanese with unofficial translations
 distributed from various sources of the web.
@@ -37,9 +39,10 @@ notation editing layout.
 ::: details [*FL Studio*][fl] (Windows; macOS, trial, proprietary)
 
 Another complete DAW available with trial usage, which can also be used as a
-MIDI editor.[^a][^b] Its advantage point is it has the best [UX][ux]{title="User Experience"}
-among these three. Its piano roll performance is also slightly more optimized
-than REAPER (with the older version at least).
+MIDI editor.[^a][^b] Its advantage point is it has the best
+[UX][ux]{title="User Experience"} among these three. Its piano roll
+performance is also slightly more optimized than REAPER (with the older
+version at least).
 
 :::
 
@@ -57,11 +60,8 @@ directly, or run the installer for it. For Android, *Google Play Store*
 and *App Store* will give provision on getting it to work on your
 devices.
 
-Here are some detailed instructions for some of the listed programs:
-
-- How to install Domino on Windows
-- How to install FL Studio on Windows
-- How to install REAPER on Windows
+The next section contains links to installation instructions for some MIDI
+editors.
 
 ## Start blacking {data-step="3"}
 
@@ -70,7 +70,7 @@ blacking. To cap it off, here are some boosters to help you have a nice
 experience when blacking MIDIs:
 
 - How to black MIDIs on Domino
-- <router-link :to="{ name: 'BM003' }">How to black MIDIs on REAPER</router-link>
+- [How to black MIDIs on REAPER](/software/midi-editor/reaper)
 - How to black MIDIs on FL Studio
 - How to black MIDIs on FL Studio Mobile
 

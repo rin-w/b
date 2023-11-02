@@ -32,14 +32,14 @@ Hehe.
 
 #### Sound setup {data-step="1"}
 
-![](/reaper_fstart.webp)
+![reaper startup](/reaper_fstart.webp)
 
 When you open REAPER the first time, this prompt should appear. Click `[Yes]`.
 
 For the 'Audio system', you may choose *WASAPI* if you are not sure of what to
 pick.
 
-![](/reaper_audsys.webp)
+![reaper audio system configuration](/reaper_audsys.webp)
 
 Afterwards, click on `[OK]`.
 
@@ -47,18 +47,18 @@ If an error about mismatched sample rate appears, you might want to change
 the 'Mode' to 'Exclusive mode', so you don't have to go through
 [this troubleshooting](#wasapi-shared-mode).
 
-![](/reaper_audmode.webp)
+![reaper WASAPI mode configuration](/reaper_audmode.webp)
 
 The next window you will see is the evaluation license prompt. Until you
 purchase a license, this window will show up every time you start REAPER.
 
-![](/reaper_licence.webp)
+![reaper trial startup window](/reaper_licence.webp)
 
 Click on `[Still Evaluating]`
 
 Your REAPER window should look something like this in the beginning.
 
-![](/reaper_window.webp)
+![reaper default main window](/reaper_window.webp)
 
 #### Synth setup {data-step="2"}
 
@@ -69,7 +69,7 @@ On the left side, find 'MIDI Devices'.
 Within the MIDI outputs list box, enable the synth where you want your MIDI
 notes to play. On this case, I am using Keppy's Synthesizer
 
-![](/reaper_pref.webp)
+![reaper MIDI output device configuration](/reaper_pref.webp)
 
 ## Setting up MIDI tracks
 
@@ -113,9 +113,7 @@ You may place this file in the `REAPER\ProjectTemplates` folder. Then, you can
 now quickly create projects with this base, by navigating the menu `File` ->
 `Project Templates` -> `<template-name>`.
 
-## Notes and Hotkeys
-
-### Pitch
+## Piano roll interaction
 
 The following video demonstrates some familiar functions for MIDI editing.
 
@@ -144,45 +142,6 @@ src="/reaper_hotnotes.webm" />
 - If the track is visible (eye button), then the track will be visible on the
   piano roll.
 - You can play *Bad Apple!!* arrangements.
-
-### Custom key binding
-
-You can set your own key binds to specific actions by navigating
-`Preferences` -> `General: Keyboard` -> `Assign keyboard shortcuts ...`.
-
-![](/reaper_keybind.webp)
-
-For example, we could set a custom key bind to the scroll behaviour:
-
-![](/reaper_keybindadd.webp)
-
-![](/reaper_keybindbind.webp)
-
-At the same time, we could also change the mouse behaviours. (Refer to the
-following section.)
-
-### Other feature hotkeys
-
-Here are more useful hotkeys.
-
-#### Strum notes by dragging
-
-Selected notes can be easily strummed by modifying `Mouse Modifiers` found
-under the preferences `Editing Behaviour` category.
-
-![](/reaper_notestrumbind.webp)
-
-![](/reaper_strum.webp){width="420px"}
-
-#### Straight note lines
-
-Create notes in straight lines by holding the hotkey `Ctrl` + `Alt` as you
-click and drag on the piano roll.
-
-![](/reaper_straightnotes.webp){width="420px"}
-
-To create vertical straight notes, use `Shift` + `Alt`.
-
 
 ## MIDI file operations
 
@@ -217,12 +176,60 @@ src="/reaper_importmidi.webm" />
 - Alternatively, on the menu, go to `Insert` -> `Media file...`, then select
   the desired MIDI file.
 
+## User experience
 
-## Themes
+### Hotkeys
+
+#### Customization
+
+You can set your own key binds to specific actions by navigating
+`Preferences` -> `General: Keyboard` -> `Assign keyboard shortcuts ...`.
+
+![reaper keybind option](/reaper_keybind.webp)
+
+For example, we could set a custom key bind to the scroll behaviour:
+
+![reaper key action modification](/reaper_keybindadd.webp)
+
+![reaper key action assignment](/reaper_keybindbind.webp)
+
+At the same time, we could also change the mouse behaviours. (Refer to the
+following section.)
+
+#### Strum notes by dragging
+
+Selected notes can be easily strummed by modifying `Mouse Modifiers` found
+under the preferences `Editing Behaviour` category.
+
+![reaper note strumming hotkey configuration](/reaper_notestrumbind.webp)
+
+Set the `Context` to `MIDI note`, then choose any modifier you like, and
+finally right-click on it to set `Stretch notes` -> `Just stretch` /
+`Ignoring Snap`.
+
+![reaper note strumming demo](/reaper_strum.webp){width="420px"}
+
+#### Straight note lines
+
+Create notes in straight lines by holding the hotkey `Ctrl` + `Alt` as you
+click and drag on the piano roll.
+
+![reaper straight line note demo](/reaper_straightnotes.webp){width="420px"}
+
+To create vertical straight notes, use `Shift` + `Alt`.
+
+### Playback
+
+You can prevent piano roll window from scrolling to playhead position by
+heading to the main menu bar -> `Options` -> `Automatically scroll view
+during playback`.
+
+### Themes
 
 Unfortunately, I will <i title="because I don't know how to. lma">not</i> be
 diving deep into the process of creating REAPER themes. Instead, you could
-look for a user-generated theme you like from the website [here](https://stash.reaper.fm/browse.php?q=&cat=Themes&v=th&o=nd&pp=12).
+look for a user-generated theme you like from the website
+[here](https://stash.reaper.fm/browse.php?q=&cat=Themes&v=th&o=nd&pp=12).
 
 Procedures on installing the theme are described in their respective theme
 descriptions. Usually the `*.ReaperThemeZip` file is to be placed in the
@@ -230,7 +237,9 @@ descriptions. Usually the `*.ReaperThemeZip` file is to be placed in the
 
 To enable the theme, open the menu `Options` -> `Themes` -> `<theme-name>`
 
-## WASAPI shared mode
+## Miscellaneous
+
+### WASAPI shared mode
 
 When using 'Shared mode' in the *WASAPI* audio interface, you will need to
 make sure that sample rates are synchronized between your speaker driver and
@@ -243,7 +252,8 @@ A way to do this is to:
 + On the 'Playback' tab, double-click on the item which is marked as 'Default
   Device' (usually, it's the *Speakers*)
 + Click on the 'Advanced' tab.
-+ Take note of the current sample rate: ![](/windows_samprate.webp)
++ Take note of the current sample rate: 
+  ![windows audio device sample rate configuration](/windows_samprate.webp)
 + Close the current window to go back.
 + On the 'Recording' tab, double-click on the item which is marked as 'Default
   Device' (usually, it's the *Microphone*)
@@ -251,9 +261,5 @@ A way to do this is to:
 + Now, you can choose whether to sync the sample rate of the Speakers to the
   Microphone, or vice-versa. All that matters is both of them should have the
   same sample rate.
-
-Prevent piano roll window from scrolling to playhead position
-[Main Menu bar] Options > 'Automatically scroll view during playback'
-
 
 [reaper]: <https://www.reaper.fm/download.php>

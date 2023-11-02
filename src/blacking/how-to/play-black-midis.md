@@ -65,7 +65,7 @@ devices.
 
 Here are some detailed instructions for some of the listed programs: 
 
-- [How to install Piano From Above on Windows](/software/midi-player/piano-from-above.html#installation)
+- [How to install Piano From Above on Windows](/software/midi-visualizer/piano-from-above.html#installation)
 
 ## Play a MIDI in the player {data-step="3"}
 
@@ -73,7 +73,7 @@ After you manage to open the player, find and open a MIDI file of your choice.
 Each MIDI player has its own way of opening MIDI files, but here are some
 detailed instructions for some:
 
-- [How to open a MIDI in Piano From Above on Windows](/software/midi-player/piano-from-above.html#playing-midi)
+- [How to open a MIDI in Piano From Above on Windows](/software/midi-visualizer/piano-from-above.html#playing-midi)
 
 ## Enhance sound {data-step="4"}
 
@@ -128,9 +128,9 @@ Here are some detailed instructions for some of the listed programs:
 
 Next thing you would want to do is to change how it sounds overall. The
 biggest factor for this is the *soundfont*. These files are usually named as
-<code>\*.sf2</code> or <code>\*.sfz</code>. You can either download an already
-existing soundfont, or <a href="meth">make one yourself</a>. For beginners,
-here are some sites where you can quickly get a soundfont:
+`*.sf2` or `*.sfz`. You can either download an already existing soundfont,
+or [make one yourself](/soundfont/how-to/intro). For beginners, here are some
+sites where you can quickly get a soundfont:
 
 - [MBMS' soundfont repositories][mbms]
 - [Soundfonts 4U][s4u]
@@ -142,7 +142,7 @@ player to use it.
 
 Here are some detailed instructions for some of the listed MIDI players: 
 
-- [How to setup Piano From Above synth](/software/midi-player/piano-from-above.html#setting-up-the-synthesizer)
+- [How to setup Piano From Above synth](/software/midi-visualizer/piano-from-above.html#setting-up-the-synthesizer)
 
 ## Footnotes
 
