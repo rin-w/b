@@ -126,7 +126,7 @@ function sidebarSoftware(): any[] {
         { text: 'OmniMIDI', link: 'keppy-synth' },
         { 
           text: 'Renderers', 
-          base: '/software/synthesizer/renderer',
+          base: '/software/synthesizer/renderer/',
           collapsed: false,
           items: [
             { text: "Keppy's MIDI Converter" , link: 'keppy-midi-converter' },
@@ -141,7 +141,7 @@ function sidebarSoftware(): any[] {
         { text: 'Piano From Above', link: 'piano-from-above' },
         { 
           text: 'Renderers', 
-          base: '/software/midi-visualizer/renderer',
+          base: '/software/midi-visualizer/renderer/',
           collapsed: false,
           items: [
             { text: 'Zenith', /*link: 'zenith'*/ },
