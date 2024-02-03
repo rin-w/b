@@ -105,7 +105,7 @@ cooler to install a slightly more accurate definition file for KS.
 
 ::: tip ATTACHMENT
 
-[BASSMIDI Keppy Synth (.xml)](/ks_bass.xml){download}
+[BASSMIDI Keppy Synth (.xml)](/domino/ks_bass.xml){download}
 
 Click the link above to save it to your computer.
 
