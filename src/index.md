@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "black MIDI"
   text: "songs"
-  tagline: "won't kill you nor your brain"
+  tagline: "won't kill your brain nor your computer"
   image:
     src: /home.gif
     alt: b

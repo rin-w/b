@@ -1,12 +1,19 @@
-# Using *~~Keppy's <s style="text-decoration-style: wavy;">Driver</s> Synthesizer~~ OmniMIDI*
+# Using Keppy's Synthesizer
 
 #### *For beginners, probably*
 
 ::: info 
 
-*~~Keppy's <s style="text-decoration-style: wavy;">Driver</s> Synthesizer~~
-OmniMIDI* is a software synthesizer for the Microsoft Windows operating
-system.
+Keppy's Synthesizer is a software synthesizer for the Microsoft Windows
+operating system. The synth was originally named *Keppy's Driver*, which was
+then renamed to *Keppy's Synthesizer*, and finally *OmniMIDI*.
+
+:::
+
+
+::: warning 
+
+This article discusses about an older version of OmniMIDI.
 
 :::
 
@@ -37,11 +44,11 @@ hand with the fingers forming an ok hand that looks like a letter "k"
 (initials of keppy and kspaghetti). (DO NOT MAKE A MISTAKE OR
 MISPRONUNCIATION WHILE READING)
 
-![keppy setup showing license conditions](/kepydrive_setup1.webp)
+![keppy setup showing license conditions](/ks/setup1.webp)
 
 The next step is about finalizing your commitment to the divine program.
 
-![keppy setup asserting its second coming](/kepydrive_setup2.webp)
+![keppy setup asserting its second coming](/ks/setup2.webp)
 
 After you click the 'Finish' button, Keppy's Driver should now be by your side
 forever. Should you feel troubled, it will comfort you and enlighten you what
@@ -53,7 +60,7 @@ to conduct.
 To run the configuration window, simply head to the start menu and find
 Keppy's Driver folder, where the shortcut for it exists.
 
-![keppy synth start menu folder](/kepysynth_startconfig.webp)
+![keppy synth start menu folder](/ks/startconfig.webp)
 
 ### Managing Soundfonts
 
@@ -62,13 +69,13 @@ Keppy's Driver folder, where the shortcut for it exists.
 When you want to add a soundfont, just click the plus button or drag and drop
 the soundfont file from the file explorer.
 
-![keppy synth config pointed at button for adding soundfont](/kepysynth_addsf.webp)
+![keppy synth config pointed at button for adding soundfont](/ks/addsf.webp)
 
 #### Toggling soundfonts
 
 You can toggle the soundfont using green red buttons.
 
-![keppy synth config pointed at soundfont toggle buttons](/kepysynth_togglesf.webp)
+![keppy synth config pointed at soundfont toggle buttons](/ks/togglesf.webp)
 
 The refresh button above it can be used to push a state update on what
 soundfonts the currently running MIDI players listening to the synth should
@@ -79,20 +86,20 @@ after you click the refresh button. If you want it to automatically push a
 state update whenever you toggle a soundfont, you can enable this behaviour
 through the menu:
 
-![keppy synth config auto reload soundfonts menu](/kepysynth_autoreload.webp)
+![keppy synth config auto reload soundfonts menu](/ks/autoreload.webp)
 
 #### Soundfont list assignment per application
 
 You can assign an application to what specific list number it should load the
 soundfonts from.
 
-![keppy synth config per app soundfont list assignment toggle menu](/kepysynth_sflistassign.webp)
+![keppy synth config per app soundfont list assignment toggle menu](/ks/sflistassign.webp)
 
 On the next window that appears select which list the application/s will load
 from, then right-click anywhere on the white background for the options to
 appear.
 
-![keppy synth config per app soundfont list assignment window](/kepysynth_sflistassignwindow.webp)
+![keppy synth config per app soundfont list assignment window](/ks/sflistassignwindow.webp)
 
 `Absolute path` means the synth will recognize the app through the location of
 the app. The second option means the synth will recognize the app by its name
@@ -109,7 +116,7 @@ If you hear dank noises (or cracking noises) at sound peaks, you could install
 LoudMax to the synth. LoudMax is an audio compressor which is useful for
 normalizing extreme sound output especially from Black MIDIs.
 
-![keppy synth config loudmax menu](/kepysynth_loudmax.webp)
+![keppy synth config loudmax menu](/ks/loudmax.webp)
 
 #### WinMM patch
 
@@ -119,7 +126,7 @@ issues are encountered, you can also revert it back. Furthermore, you could
 always ask for help from the community to possibly solve issues with your
 program.
 
-![keppy synth config winmm patch menu](/kepysynth_winmm.webp)
+![keppy synth config winmm patch menu](/ks/winmm.webp)
 
 #### Hotkey for sound resetting
 
@@ -127,7 +134,7 @@ An option to let you use the `Insert` key on your keyboard to cut and reset
 all MIDI events at one point in time is available. This can be handy if some
 channels somehow get their sustain events stuck (or any other events).
 
-![keppy synth config hotkey toggle](/kepysynth_hotkey.webp)
+![keppy synth config hotkey toggle](/ks/hotkey.webp)
 
 
 ## Advanced
@@ -136,7 +143,7 @@ You can change further settings of the synth for playback optimization or
 experimentation. There are also some available presets to choose from
 according to your needs.
 
-![keppy synth config showing advanced configuration options](/kepysynth_settings.webp)
+![keppy synth config showing advanced configuration options](/ks/settings.webp)
 
 The `Audio engine` is the engine for the audio. Currently, WASAPI is the most
 efficient audio engine of the synth. You may change it if you are having
@@ -162,7 +169,7 @@ note. Finally, if two notes with the same starting point triggers, two other
 sustained notes at the same time must also get cut off if there are still 3
 other notes playing.
 
-![only release oldest instance for note off illustration](/illusoldestintancenoteoff.webp)
+![only release oldest instance for note off illustration](/ks/illusoldestintancenoteoff.webp)
 
 :::
 

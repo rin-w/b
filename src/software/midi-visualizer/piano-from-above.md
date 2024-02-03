@@ -18,14 +18,14 @@ Currently, there are a few well-known sources to get a copy of PFA:
 For the original version, open the first link on the list above, then select
 the compatible executable file for your computer.
 
-![github page for piano from above latest release](/pfa_dl.webp)
+![github page for piano from above latest release](/pfa/dl.webp)
 
 The red box in the photo above is where your options are. Select the one with
 a green arrow if you have a modern day computer.
 
 For the optimized version, open the second link on the list above.
 
-![github page for piano from above forked release](/pfa_vizdl.webp)
+![github page for piano from above forked release](/pfa/vizdl.webp)
 
 You could simply download the only listed executable file as show in the red
 box above. The latest version is what you will usually need as indicated in
@@ -36,7 +36,7 @@ the green box.
 For starters, you could simply just double click on the executable file you
 downloaded.
 
-![context menu to open piano from above](/pfa_open.webp)
+![context menu to open piano from above](/pfa/open.webp)
 
 Alternatively, you could select the file on your File Explorer window and
 press Enter on your keyboard. If you can't find the Enter key on your
@@ -48,33 +48,39 @@ files" on your favourite search engine like Google or Excavator.
 
 Your first PFA launch should look something like this:
 
-![active piano from above window](/pfa_opened.webp)
+![active piano from above window](/pfa/opened.webp)
+
+#### Patch (Optional) {data-step="3"}
+
+If you will use OmniMIDI/Keppy's Synthesizer, you could apply a [WinMM patch](/software/synthesizer/keppy-synth#winmm-patch)
+to PFA to increase synth playback performance.
+
+Make sure to close PFA before applying the patch.
+
 
 ## Playing MIDI
 
-You can play a MIDI within PFA by navigating the top bar buttons:
+You can play a MIDI by navigating the top bar buttons (a.k.a the menu):
 
-![piano from above File menu](/pfa_openmidi.webp)
+![piano from above File menu](/pfa/openmidi.webp)
 
 A new window will appear prompting you to select a MIDI file to play.
-
-## Configuration
 
 ### Setting up the synthesizer
 
 Simply open the `Preferences` window through the menu or press `Ctrl` + `P`
 
-![piano from above preferences option from Options menu](/pfa_synth1.webp)
+![piano from above preferences option from Options menu](/pfa/synth1.webp)
 
 Then go to the `Audio` tab and select the synthesizer you want to use. 
 
-![Audio tab of Preferences window showing recognized synthesizers of piano from above](/pfa_synth2.webp)
+![Audio tab of Preferences window showing recognized synthesizers of piano from above](/pfa/synth2.webp)
 
 Click OK and it should take effect immediately (for most cases).
 
-### Advanced
+## Advanced Configuration
 
-#### Configuration file
+### Configuration file
 
 The configuration file for PFA can be found in your `AppData` folder. To
 quickly go there, just press `Win` + `R` to open the run box, then input
@@ -93,7 +99,7 @@ Before editing the file, make sure to close PFA first or else it will explode
 (real).
 :::
 
-#### 128 keys view
+### 128 keys view
 
 The forked viz version already has this option included in the preferences
 window. 
@@ -110,13 +116,13 @@ should look something like this:
 
 You can save the edited file afterwards, and start PFA again.
 
-#### Changing the startup MIDI
+### Changing the startup MIDI
 
 #### For viz
 
-PFAviz already features a setting for changing the startup MIDI. Simply go to
-`Options` -> `Preferences` -> `Viz` tab -> `Browse` button under `Splash
-MIDI`
+[PFAviz](#download) already features a setting for changing the startup MIDI.
+Simply go to `Options` -> `Preferences` -> `Viz` tab -> `Browse` button under
+`Splash MIDI`
 
 #### For vanilla PFA
 
@@ -125,13 +131,14 @@ here:
 
 - [Resource Hacker][rh]
 
-Once you open the app, you can open PFA within it by heading to the menu ->
-`File` -> `Open ...`, or just by dragging and dropping PFA's executable file. 
+Once you open the app, you can target the PFA executable by heading to the
+menu -> `File` -> `Open ...`, or just by dragging and dropping PFA's
+executable file. 
 
-![PFA on reshack about to get its resource modified](/pfa_reshack.webp)
+![PFA on reshack about to get its resource modified](/pfa/reshack.webp)
 
 Then, we need to look for resource 149, which is in the directory `MIDI` ->
-`149 : 1033`. Right-click on it, then click `Replace file...`.
+`149 : 1033`. Right-click on it, then click `Replace Resource...`.
 
 You can then pick the desired MIDI ~~(bad apple)~~ to play on PFA's startup
 after you click on `[Select File...]`.
@@ -147,7 +154,7 @@ then click `[End Task]`.
 
 ### PFA is running but invisible
 
-This bug has been fixed in the pfaviz fork.
+This bug has been fixed in the [pfaviz fork](#download).
 
 ::: details Steps to reproduce this bug 
 

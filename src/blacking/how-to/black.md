@@ -42,6 +42,6 @@ while following this tutorial.
 
 :::
 
-[a]: <https://youtu.owacon.moe/twaJeiD-hnw?t=13>
+[a]: <https://youtube.com/twaJeiD-hnw?t=13>
 [g]: <https://en.wikipedia.org/wiki/Black_MIDI>
 [m]: <https://simple.wikipedia.org/wiki/MIDI>

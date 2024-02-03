@@ -111,7 +111,7 @@ being smooth or laggy depending on the computer's performance capabilities.
 For a guaranteed pristine animation, many blackers choose to use programs that
 make the base video for their MIDIs. The main advantage of this is its
 efficiency - no need to make tedious adjustments when recording a screen, and
-no need to wait as much as time as the MIDI's length.[^s] Here are some
+no need to wait as much time as the MIDI's length.[^s] Here are some
 visual MIDI renderers available for free:
 
 ::: details *Zenith* (Windows, [open-source][zen], [version 3 (beta)][zen3])
@@ -198,9 +198,11 @@ ready-for-publishing video file.
 There are available tutorials for editing audio/videos from various people on
 video sharing sites (such as YouTube). They can offer detailed and insightful
 procedures on how to perform certain desired effects to be applied to your
-Black MIDI video. At this point, I could simply suggest to search within the
+Black MIDI video. At this point, I could simply suggest to search on the
 sites using the keywords of your video/audio editor with the description of
-your desired effects<!--, but here are some that is especially applied for a Black MIDI video:-->.
+your desired effects.
+
+<!--, but here are some that is especially applied for a Black MIDI video:-->
 <!--ul>
   []()
 </ul-->

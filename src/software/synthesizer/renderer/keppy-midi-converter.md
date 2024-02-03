@@ -41,20 +41,20 @@ However, you can only apply one soundfont for each instrument. You can add
 soundfonts by heading to the menu -> `Actions` -> `Open Soundfonts/VSTs
 manager`.
 
-![kmc actions menu](/kmc_actions.webp)
+![kmc actions menu](/kmc/actions.webp)
 
 Click on `Import soundfont(s)` to add the soundfont you want to apply to the
 MIDIs:
 
-![kmc soundfont manager](/kmc_sfman.webp)
+![kmc soundfont manager](/kmc/sfman.webp)
 
-Make sure you have LoudMax toggled on within the VST manager so no dank noises
-will occur:
+Make sure you have LoudMax enabled in the VST manager so no dank noises will
+occur:
 
-![kmc vst manager](/kmc_vstman.webp)
+![kmc vst manager](/kmc/vstman.webp)
 
 You could also add other VST plugins, such as reverb plugins. You can explore
-more plugins [here][free] for free. After getting one, you could click `
+more plugins on [plugins4free.com][free] for free. After getting one, you could click `
 [Load]` on one of the plugin slots, then select the `*.dll` file plugin.
 
 ### Render mode
@@ -62,7 +62,7 @@ more plugins [here][free] for free. After getting one, you could click `
 KMC offers two render modes: standard and realtime which can be set on the
 menu -> `Options` -> `Render mode`. 
 
-![kmc render mode options](/kmc_rendermodes.webp)
+![kmc render mode options](/kmc/rendermodes.webp)
 
 Standard rendering means it will render the MIDI at a perfect performance,
 while realtime rendering adds some 'realism' or randomness to certain

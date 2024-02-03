@@ -60,8 +60,8 @@ directly, or run the installer for it. For Android, *Google Play Store*
 and *App Store* will give provision on getting it to work on your
 devices.
 
-The next section contains links to installation instructions for some MIDI
-editors.
+The next section contains links to detailed installation instructions for some
+MIDI editors.
 
 ## Start blacking {data-step="3"}
 
@@ -69,7 +69,7 @@ You are almost done with setting things up and pretty much ready to go
 blacking. To cap it off, here are some boosters to help you have a nice
 experience when blacking MIDIs:
 
-- How to black MIDIs on Domino
+- [How to black MIDIs on Domino](/software/midi-editor/domino/intro)
 - [How to black MIDIs on REAPER](/software/midi-editor/reaper)
 - How to black MIDIs on FL Studio
 - How to black MIDIs on FL Studio Mobile
@@ -79,9 +79,9 @@ experience when blacking MIDIs:
 [^!] There is no such thing as the best way to make a Black MIDI (at least as
 what agreed upon). There are certain ways to black which a particular sum of
 population find acceptable/satisfactory or 'of quality', that are very
-loosely defined within the community. One notorious concept of blacking a
-MIDI known as *Korean style* is heavily cited as 'quality' due to its
-author's intricate attention to details when making it. What makes a Black
+loosely defined in the community. One notorious concept of blacking a MIDI
+known as *Korean style* is heavily cited as 'quality' due to its author's
+intricate attention to details when making it. What makes a Black
 MIDI *Korean style* is already debatable, making every other Black MIDIs very
 hard to categorize, and even if it is done so, it almost always meets a vague
 criteria. The community would often say terminologies like *phrases*, but

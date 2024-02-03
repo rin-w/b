@@ -1,1 +1,1 @@
-![](/god.jpg)
+![](/god.webp)

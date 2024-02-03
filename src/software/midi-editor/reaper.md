@@ -32,14 +32,14 @@ Hehe.
 
 #### Sound setup {data-step="1"}
 
-![reaper startup](/reaper_fstart.webp)
+![reaper startup](/reaper/fstart.webp)
 
 When you open REAPER the first time, this prompt should appear. Click `[Yes]`.
 
 For the 'Audio system', you may choose *WASAPI* if you are not sure of what to
 pick.
 
-![reaper audio system configuration](/reaper_audsys.webp)
+![reaper audio system configuration](/reaper/audsys.webp)
 
 Afterwards, click on `[OK]`.
 
@@ -47,18 +47,18 @@ If an error about mismatched sample rate appears, you might want to change
 the 'Mode' to 'Exclusive mode', so you don't have to go through
 [this troubleshooting](#wasapi-shared-mode).
 
-![reaper WASAPI mode configuration](/reaper_audmode.webp)
+![reaper WASAPI mode configuration](/reaper/audmode.webp)
 
 The next window you will see is the evaluation license prompt. Until you
 purchase a license, this window will show up every time you start REAPER.
 
-![reaper trial startup window](/reaper_licence.webp)
+![reaper trial startup window](/reaper/licence.webp)
 
 Click on `[Still Evaluating]`
 
 Your REAPER window should look something like this in the beginning.
 
-![reaper default main window](/reaper_window.webp)
+![reaper default main window](/reaper/window.webp)
 
 #### Synth setup {data-step="2"}
 
@@ -66,10 +66,10 @@ To setup your software synth in REAPER, you can press `Ctrl` + `P`
 
 On the left side, find 'MIDI Devices'.
 
-Within the MIDI outputs list box, enable the synth where you want your MIDI
+On the MIDI outputs list box, enable the synth where you want your MIDI
 notes to play. On this case, I am using Keppy's Synthesizer
 
-![reaper MIDI output device configuration](/reaper_pref.webp)
+![reaper MIDI output device configuration](/reaper/pref.webp)
 
 ## Setting up MIDI tracks
 
@@ -79,7 +79,7 @@ through the software synthesizer.
 ::: details Video Demo
 
 <video controls="controls" preload="metadata" 
-src="/reaper_trackssetup.webm" />
+src="/reaper/trackssetup.webm" />
 
 :::
 
@@ -100,12 +100,11 @@ src="/reaper_trackssetup.webm" />
 Alternatively, you can use this pre-made template so you don't have to do all
 of these clickings:
 
-- [REAPER Template - 16 MIDI out](/MIDI_16OUT.rpp){target="_blank"}
+::: tip ATTACHMENT
 
-::: tip
+[REAPER Template - 16 MIDI out (.rpp)](/reaper/MIDI_16OUT.rpp){download}
 
-If clicking the link above just shows the content of it, just press `Ctrl` +
-`S` to download it. Make sure the file's extension is still `*.rpp`.
+Click the link above to save it to your computer.
 
 :::
 
@@ -120,7 +119,7 @@ The following video demonstrates some familiar functions for MIDI editing.
 ::: details Video Demo
 
 <video controls="controls" preload="metadata" 
-src="/reaper_hotnotes.webm" />
+src="/reaper/hotnotes.webm" />
 
 :::
 
@@ -135,7 +134,7 @@ src="/reaper_hotnotes.webm" />
 - `Shift` + `Alt` + `L-Click` allows you to draw notes freehand.
 - You can show the notes through many layers of MIDI tracks using the track
   list ([context menu] -> `Contents` -> `Track List`)
-- Within the track list, the arrow button targets that track as the base for
+- On the track list, the arrow button targets that track as the base for
   editing. This can be used as your usual track navigator.
 - If the track is unlocked, it means it can be edited (together with the base
   target) at the current state of the piano roll.
@@ -150,7 +149,7 @@ src="/reaper_hotnotes.webm" />
 ::: details Video Demo
 
 <video controls="controls" preload="metadata" 
-src="/reaper_exportmidi.webm" />
+src="/reaper/exportmidi.webm" />
 
 :::
 
@@ -165,7 +164,7 @@ src="/reaper_exportmidi.webm" />
 ::: details Video Demo
 
 <video controls="controls" preload="metadata" 
-src="/reaper_importmidi.webm" />
+src="/reaper/importmidi.webm" />
 
 :::
 
@@ -185,13 +184,13 @@ src="/reaper_importmidi.webm" />
 You can set your own key binds to specific actions by navigating
 `Preferences` -> `General: Keyboard` -> `Assign keyboard shortcuts ...`.
 
-![reaper keybind option](/reaper_keybind.webp)
+![reaper keybind option](/reaper/keybind.webp)
 
 For example, we could set a custom key bind to the scroll behaviour:
 
-![reaper key action modification](/reaper_keybindadd.webp)
+![reaper key action modification](/reaper/keybindadd.webp)
 
-![reaper key action assignment](/reaper_keybindbind.webp)
+![reaper key action assignment](/reaper/keybindbind.webp)
 
 At the same time, we could also change the mouse behaviours. (Refer to the
 following section.)
@@ -201,20 +200,20 @@ following section.)
 Selected notes can be easily strummed by modifying `Mouse Modifiers` found
 under the preferences `Editing Behaviour` category.
 
-![reaper note strumming hotkey configuration](/reaper_notestrumbind.webp)
+![reaper note strumming hotkey configuration](/reaper/notestrumbind.webp)
 
 Set the `Context` to `MIDI note`, then choose any modifier you like, and
 finally right-click on it to set `Stretch notes` -> `Just stretch` /
 `Ignoring Snap`.
 
-![reaper note strumming demo](/reaper_strum.webp){width="420px"}
+![reaper note strumming demo](/reaper/strum.webp){width="420px"}
 
 #### Straight note lines
 
 Create notes in straight lines by holding the hotkey `Ctrl` + `Alt` as you
 click and drag on the piano roll.
 
-![reaper straight line note demo](/reaper_straightnotes.webp){width="420px"}
+![reaper straight line note demo](/reaper/straightnotes.webp){width="420px"}
 
 To create vertical straight notes, use `Shift` + `Alt`.
 
@@ -228,8 +227,8 @@ during playback`.
 
 Unfortunately, I will <i title="because I don't know how to. lma">not</i> be
 diving deep into the process of creating REAPER themes. Instead, you could
-look for a user-generated theme you like from the website
-[here](https://stash.reaper.fm/browse.php?q=&cat=Themes&v=th&o=nd&pp=12).
+look for a user-generated theme you like from the
+[REAPER Stash](https://stash.reaper.fm/browse.php?q=&cat=Themes&v=th&o=nd&pp=12).
 
 Procedures on installing the theme are described in their respective theme
 descriptions. Usually the `*.ReaperThemeZip` file is to be placed in the
@@ -253,7 +252,7 @@ A way to do this is to:
   Device' (usually, it's the *Speakers*)
 + Click on the 'Advanced' tab.
 + Take note of the current sample rate: 
-  ![windows audio device sample rate configuration](/windows_samprate.webp)
+  ![windows audio device sample rate configuration](/windows/samprate.webp)
 + Close the current window to go back.
 + On the 'Recording' tab, double-click on the item which is marked as 'Default
   Device' (usually, it's the *Microphone*)

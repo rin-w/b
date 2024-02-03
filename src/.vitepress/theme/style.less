@@ -146,11 +146,13 @@
   z-index: 200;
 }
 
+video[src],
 .medium-zoom-image {
   z-index: 210;
   box-shadow: 1px 1px .4em black;
 }
 
+video[src],
 li .medium-zoom-image,
 p .medium-zoom-image {
   margin: auto;
@@ -169,18 +171,6 @@ a.footnote-backref {
  * theme overrides
  * -------------------------------------------------------------------------- */
 
-@media (min-width: 1440px) {
-  .VPNavBar.has-sidebar .curtain[data-v-cf6e7c5e] {
-    width: 100%;
-  }
-}
-
-@media (min-width: 960px) {
-  .VPNavBar.has-sidebar .curtain[data-v-cf6e7c5e]::before {
-    background: linear-gradient(var(--vp-c-bg-alt), transparent 70%);
-    z-index: 0;
-  }
-}
 
 @media (min-width: 768px) {
   .DocSearch-Button {
@@ -201,6 +191,7 @@ a.footnote-backref {
   --c-lnk: var(--tint-4);
   --c-lnk-h: #87B219;
   --code: #1422EA;
+  --glow: #6D35E1;
 
   --vp-nav-bg-color: var(--vp-c-bg-alt);
   --vp-home-hero-name-background: linear-gradient(50deg, #f9E 40px, var(--tint-2a) 50%, var(--tint-3a) 70%);
@@ -211,7 +202,7 @@ a.footnote-backref {
   --vp-c-brand-1: var(--c-lnk);
   --vp-c-brand-2: var(--c-lnk-h);
   --vp-code-color: var(--code);
-  --vp-local-search-highlight-bg: var(--p-lnk-h-glow);
+  --vp-local-search-highlight-bg: var(--glow);
   --vp-local-search-highlight-text: var(--c-txt-contrast);
 }
 
@@ -241,7 +232,6 @@ a.footnote-backref {
   --c-p-lnk: #bbb;
   --c-p-lnk-h: #EFCBFE;
   --c-p-sub-lnk: #91790C;
-  --p-lnk-h-glow: #6D35E1;
   --c-txt-contrast: #ddd;
   --c-txt-primary: #bbb;
   --c-txt-lprimary: #999;
@@ -284,6 +274,27 @@ a[target="_blank"]::after {
   content: "";
 }
 
+a[download] {
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+  padding-top: .4em;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: currentColor;
+    color: var(--vp-c-text-3);
+    flex-shrink: 0;
+    --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m15 7l-6.5 6.5a1.5 1.5 0 0 0 3 3L18 10a3 3 0 0 0-6-6l-6.5 6.5a4.5 4.5 0 0 0 9 9L21 13'/%3E%3C/svg%3E");
+    mask-image: var(--icon);
+    -webkit-mask-image: var(--icon);
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: var(--c-txt-primary);
 }
@@ -291,6 +302,10 @@ h1, h2, h3, h4, h5, h6 {
 h3 {
   align-items: center;
   display: flex;
+  
+  &[data-step] {
+    align-items: baseline;
+  }
 }
 
 h2[data-step]::before {
@@ -298,6 +313,15 @@ h2[data-step]::before {
   content: "STEP " attr(data-step) ": ";
   font-style: inherit;
   font-size: 15px;
+}
+
+h3[data-step]::before {
+  color: var(--c-p-sub-lnk);
+  content: "STEP " attr(data-step) ": ";
+  font-style: inherit;
+  margin-left: 0;
+  font-size: 12px;
+  opacity: 1;
 }
 
 h4[data-step]::before {
@@ -309,16 +333,31 @@ h4[data-step]::before {
   opacity: 1;
 }
 
-main h3::before {
-  content: '◆';
-  margin-right: 2pt;
-  font-size: 16px;
-  opacity: .5;
+main h3 {
+
+  &::before {
+    content: '◆';
+    margin-left: -16px;
+    margin-right: 2pt;
+    font-size: 16px;
+    opacity: .5;
+  }
+  &:hover:not([data-step])::before {
+    opacity: 0;
+  }
 }
 
-h4::before {
-  content: '◇ ';
-  opacity: .5;
+h4:not([data-step]) {
+
+  &::before {
+    content: '◇ ';
+    margin-left: -18px;
+    opacity: .5;
+  }
+
+  &:hover::before {
+    opacity: 0;
+  }
 }
 
 p {
@@ -339,6 +378,10 @@ i[title], p > span[title] {
 
 .VPNav > .has-sidebar {
   background-color: var(--vp-c-bg-alt);
+
+  &.VPNavBar .title + .content { // top-nav bg on content view
+    background-color: var(--vp-nav-bg-color);
+  }
 }
 
 .vp-doc .custom-block {
@@ -367,9 +410,41 @@ i[title], p > span[title] {
   box-shadow: .2em .2em 14px #0007;
 }
 
+.details:has(video) {
+  position: relative;
+  overflow: hidden;
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' d='m9.5 16.5l7-4.5l-7-4.5zM12 22q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22m0-2q3.35 0 5.675-2.325T20 12q0-3.35-2.325-5.675T12 4Q8.65 4 6.325 6.325T4 12q0 3.35 2.325 5.675T12 20m0-8'/%3E%3C/svg%3E");
+    -webkit-mask-image: var(--icon);
+    mask-image: var(--icon);
+    background-color: var(--glow);
+    opacity: .6;
+    height: 8em;
+    width: 8em;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+  }
+
+
+  &[open]::before {
+    display: none;
+  }
+
+}
+
 img.logo {
   filter: var(--r-icon-filter);
 }
+
+.item > p {
+  opacity: .4;
+}
+
 
 /**
  * wiki
