@@ -469,7 +469,7 @@
 			<Entry Label="Off" Value="0" />
 		</Table>
 
-		<?comment 0~63 = none, 64-127 = amount ?>
+		<!--?comment 0~63 = none, 64-127 = amount ?>
 
 		<Table ID="63">
 			<Entry Label="Min" Value="0" />
@@ -606,7 +606,7 @@
 			<Entry Label="Min" Value="125" />
 			<Entry Label="Min" Value="126" />
 			<Entry Label="Min" Value="127" />
-		</Table>
+		</Table-->
 
 		<?comment 0~63 = off, 64-127 = on ?>
 
@@ -939,13 +939,13 @@
 			</CCM>
 
 			<CCM ID="71" Name="Resonance" Color="#B292B3" Sync="Last">
-				<Value TableID="63" Default="64" />
+				<Value Min="-64" Max="63" Offset="64" />
 				<Memo>High-shelf filter resonance.</Memo>
 				<Data>@CC 71 #VL</Data>
 			</CCM>
 
 			<CCM ID="74" Name="Cutoff" Color="#4371BB" Sync="Last">
-				<Value TableID="65" Default="64" />
+				<Value Min="-64" Max="63" Offset="64" />
 				<Memo>High-shelf filter cut-off.</Memo>
 				<Data>@CC 74 #VL</Data>
 			</CCM>
@@ -977,21 +977,19 @@
 		<Folder Name="Envelope">
 
 			<CCM ID="73" Name="Attack" Color="#B5494B" Sync="Last">
-				<Value TableID="63" Min="63" Max="127" Default="64" />
+				<Value Min="-64" Max="63" Offset="64" />
 				<Memo>Sets the attack time. The volume envelope at the very beginning of the note trigger.</Memo>
 				<Data>@CC 73 #VL</Data>
 			</CCM>
 
 			<CCM ID="75" Name="Decay" Color="#AC5E52" Sync="Last">
-				<Value TableID="63" Min="63" Max="127" Default="64" />
+				<Value Min="-64" Max="63" Offset="64" />
 				<Memo>Sets the decay time.</Memo>
 				<Data>@CC 75 #VL</Data>
 			</CCM>
 
 			<CCM ID="72" Name="Release" Color="#DBB623" Sync="Last">
-				<Value Default="64">
-					<Entry Label="Base" Value="64" />
-				</Value>
+				<Value Min="-64" Max="63" Offset="64" />
 				<Memo>Sets the release time. The volume envelope at note release.</Memo>
 				<Data>@CC 72 #VL</Data>
 			</CCM>
