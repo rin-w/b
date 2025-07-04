@@ -30,3 +30,11 @@ npm run docs:dev
 ## Contributing
 
 There are some rules. It will be established here when I finally think about it. For now, you may write anything related to Black MIDI as you please.
+
+
+## License
+Most content written in the repository are copyrighted as [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).
+
+For the actual code, it's merely stylesheets and some formatting; MIT License.
+
+All rights to executable files in `/src/public` are reserved.
