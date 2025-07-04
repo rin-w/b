@@ -2,8 +2,7 @@
 ###### *For beginners, probably*
 ::: info 
 
-Piano From Above by Brian Pantano is a visualizer and player for general
-MIDIs.
+Piano From Above by Brian Pantano is a visualizer and player for general MIDIs.
 
 :::
 
@@ -15,36 +14,27 @@ Currently, there are a few well-known sources to get a copy of PFA:
 - [GitHub][gh1] (Windows, open-source, latest)
 - [GitHub][gh2] (Windows, open-source, forked)
 
-For the original version, open the first link on the list above, then select
-the compatible executable file for your computer.
+For the original version, open the first link on the list above, then select the compatible executable file for your computer.
 
 ![github page for piano from above latest release](/pfa/dl.webp)
 
-The red box in the photo above is where your options are. Select the one with
-a green arrow if you have a modern day computer.
+The red box in the photo above is where your options are. Select the one with a green arrow if you have a modern day computer.
 
 For the optimized version, open the second link on the list above.
 
 ![github page for piano from above forked release](/pfa/vizdl.webp)
 
-You could simply download the only listed executable file as show in the red
-box above. The latest version is what you will usually need as indicated in
-the green box.
+You could simply download the only listed executable file as show in the red box above. The latest version is what you will usually need as indicated in the green box.
 
 #### Run {data-step="2"}
 
-For starters, you could simply just double click on the executable file you
-downloaded.
+For starters, you could simply just double click on the executable file you downloaded.
 
 ![context menu to open piano from above](/pfa/open.webp)
 
-Alternatively, you could select the file on your File Explorer window and
-press Enter on your keyboard. If you can't find the Enter key on your
-keyboard, consult your nearest technician/opthalmologist or buy a new
-keyboard.
+Alternatively, you could select the file on your File Explorer window and press Enter on your keyboard. If you can't find the Enter key on your keyboard, consult your nearest technician/opthalmologist or buy a new keyboard.
 
-For more ways on how to run an executable file, type and search "how to open
-files" on your favourite search engine like Google or Excavator.
+For more ways on how to run an executable file, type and search "how to open files" on your favourite search engine like Google or Excavator.
 
 Your first PFA launch should look something like this:
 
@@ -52,8 +42,7 @@ Your first PFA launch should look something like this:
 
 #### Patch (Optional) {data-step="3"}
 
-If you will use OmniMIDI/Keppy's Synthesizer, you could apply a [WinMM patch](/software/synthesizer/keppy-synth#winmm-patch)
-to PFA to increase synth playback performance.
+If you will use OmniMIDI/Keppy's Synthesizer, you could apply a [WinMM patch](/software/synthesizer/keppy-synth#winmm-patch) to PFA to increase synth playback performance.
 
 Make sure to close PFA before applying the patch.
 
@@ -82,33 +71,23 @@ Click OK and it should take effect immediately (for most cases).
 
 ### Configuration file
 
-The configuration file for PFA can be found in your `AppData` folder. To
-quickly go there, just press `Win` + `R` to open the run box, then input
-`"%appdata%\Piano From Above"`. 
+The configuration file for PFA can be found in your `AppData` folder. To quickly go there, just press `Win` + `R` to open the run box, then input `"%appdata%\Piano From Above"`. 
 
-Within it, the file that is named `Config.xml` can be opened using any text
-editor (such as Notepad). 
+Within it, the file that is named `Config.xml` can be opened using any text editor (such as Notepad). 
 
 ::: tip
-If you're not sure on how to open the file, just right-click on it and find on
-the menu -> `Open with...` -> `Notepad`.
+If you're not sure on how to open the file, just right-click on it and find on the menu -> `Open with...` -> `Notepad`.
 :::
 
 ::: warning
-Before editing the file, make sure to close PFA first or else it will explode
-(real).
+Before editing the file, make sure to close PFA first or else it will explode (real).
 :::
 
 ### 128 keys view
 
-The forked viz version already has this option included in the preferences
-window. 
+The forked viz version already has this option included in the preferences window. 
 
-For the original version, open the configuration file, then find the section
-containing the string `<Visual ... >`. It will contain the two attributes we
-need to modify, which is the `FirstKey` and `LastKey`. The former needs to be
-set to `0` while the latter to `127`. The result after editing that line
-should look something like this:
+For the original version, open the configuration file, then find the section containing the string `<Visual ... >`. It will contain the two attributes we need to modify, which is the `FirstKey` and `LastKey`. The former needs to be set to `0` while the latter to `127`. The result after editing that line should look something like this:
 
 ```xml
 <Visual KeysShown="0" AlwaysShowControls="0" AssociateFiles="0" FirstKey="0" LastKey="127">
@@ -120,37 +99,27 @@ You can save the edited file afterwards, and start PFA again.
 
 #### For viz
 
-[PFAviz](#download) already features a setting for changing the startup MIDI.
-Simply go to `Options` -> `Preferences` -> `Viz` tab -> `Browse` button under
-`Splash MIDI`
+[PFAviz](#download) already features a setting for changing the startup MIDI. Simply go to `Options` -> `Preferences` -> `Viz` tab -> `Browse` button under `Splash MIDI`
 
 #### For vanilla PFA
 
-For this, we will need a virus (resource editor). You can download one from
-here:
+For this, we will need a virus (resource editor). You can download one from here:
 
 - [Resource Hacker][rh]
 
-Once you open the app, you can target the PFA executable by heading to the
-menu -> `File` -> `Open ...`, or just by dragging and dropping PFA's
-executable file. 
+Once you open the app, you can target the PFA executable by heading to the menu -> `File` -> `Open ...`, or just by dragging and dropping PFA's executable file. 
 
 ![PFA on reshack about to get its resource modified](/pfa/reshack.webp)
 
-Then, we need to look for resource 149, which is in the directory `MIDI` ->
-`149 : 1033`. Right-click on it, then click `Replace Resource...`.
+Then, we need to look for resource 149, which is in the directory `MIDI` -> `149 : 1033`. Right-click on it, then click `Replace Resource...`.
 
-You can then pick the desired MIDI ~~(bad apple)~~ to play on PFA's startup
-after you click on `[Select File...]`.
+You can then pick the desired MIDI ~~(bad apple)~~ to play on PFA's startup after you click on `[Select File...]`.
 
-After selecting one, just click `[Replace]`. Then, the star should become red.
-At this point, you can save the modifications by clicking the green floppy
-disk.
+After selecting one, just click `[Replace]`. Then, the star should become red. At this point, you can save the modifications by clicking the green floppy disk.
 
 ## Troubleshoot
 
-To close PFA fully, press `Ctrl` + `Shift` + `Esc`, then find PFA in the list,
-then click `[End Task]`.
+To close PFA fully, press `Ctrl` + `Shift` + `Esc`, then find PFA in the list, then click `[End Task]`.
 
 ### PFA is running but invisible
 
@@ -175,8 +144,7 @@ If you see it on the taskbar...
 
 ### PFA doesn't run
 
-If the previous steps didn't work, try resetting the [config file](#configuration-file).
-Here's a video on how to do it:
+If the previous steps didn't work, try resetting the [config file](#configuration-file). Here's a video on how to do it:
 
 ::: details Video: [How to fix Piano From Above if it doesn't load][gpfa] by Gingeas
 
@@ -196,8 +164,7 @@ Here's a video on how to do it:
 - delete `Config.xml`
 - run PFA again
 
-Further stated in the video description is to move away huge MIDI files stored
-in your library. The library also scopes these folders by default:
+Further stated in the video description is to move away huge MIDI files stored in your library. The library also scopes these folders by default:
 
 - `"%userprofile%\Desktop"`
 - `"%userprofile%\Music"`
