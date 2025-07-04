@@ -204,6 +204,8 @@ function sidebarSoftware(): any[] {
       items: [
         { text: '4GB Patch', link: '4gb-patch' },
         { text: 'MIDI Visualizer Framedump', /*link: 'synthesia-framedump'*/ },
+        { text: 'Note Mirror', link: 'midi-mirror' },
+        { text: 'Note Velocity Threshold', link: 'note-threshold' },
       ]
     },
     {
