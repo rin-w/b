@@ -1,0 +1,3 @@
+# For images, PNGs have high sizes, so let's avoid it.
+# Use web standard containers/encoding like WEBP, WEBM, etc.
+**/*.png
