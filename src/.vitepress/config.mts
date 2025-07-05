@@ -118,7 +118,15 @@ function sidebarSoftware(): DefaultTheme.SidebarItem[] {
       text: 'Synthesizers',
       base: '/software/synthesizer/',
       items: [
-        { text: "Keppy\'s Synthesizer", link: 'keppy-synth' },
+        { 
+          text: 'OmniMIDI',
+          link: 'omnimidi',
+          collapsed: true,
+          items: [
+            { text: "OmniMIDI v2" , link: 'omnimidi/v2' },
+            //{ text: "Keppy\'s Synthesizer", link: '/software/synthesizer/keppy-synth' },
+          ]
+        },
         { 
           text: 'Renderers', 
           base: '/software/synthesizer/renderer/',
