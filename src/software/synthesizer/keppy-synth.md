@@ -1,17 +1,10 @@
-# Using Keppy's Synthesizer
-
-#### *For beginners, probably*
-
-::: info 
+# Keppy's Synthesizer
 
 Keppy's Synthesizer is a software synthesizer for the Microsoft Windows operating system. The synth was originally named *Keppy's Driver*, which was then renamed to *Keppy's Synthesizer*.
 
-:::
-
-
 ::: warning 
 
-This article discusses about an older version of OmniMIDI.
+This article discusses about an older version of OmniMIDI. For the new version, visit the [OmniMIDI article](./omnimidi).
 
 :::
 
