@@ -1,2 +1,11 @@
+# lurmog baguette
 node_modules
 New folder
+
+# vp local
+src/.vitepress/dist
+src/.vitepress/cache
+
+# For images, PNGs have high sizes, so let's avoid it.
+# Use web standard containers/encoding like WEBP, WEBM, etc.
+src/public/**/*.png
