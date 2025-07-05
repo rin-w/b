@@ -1,5 +1,6 @@
+import type { DefaultTheme } from 'vitepress/types'
 import { defineConfig } from 'vitepress'
-import footnote from 'markdown-it-footnote'
+import mdiConfig from './plugin/markdown-it/config'
 
 process.env.VITE_EXTRA_EXTENSIONS = 'rpp'
 
@@ -73,27 +74,13 @@ export default defineConfig({
     image: {
       lazyLoading: true
     },
-    config: (md) => {
-
-      md.use(footnote);
-      
-      md.renderer.rules.footnote_anchor = function(tokens, idx, options, env, slf) {
-        var id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf);
-
-        if (tokens[idx].meta.subId > 0) {
-          id += ':' + tokens[idx].meta.subId;
-        }
-
-        return ' <a href="#fnref' + id + '" class="footnote-backref">★</a>';
-      }
-
-    },
+    config: mdiConfig.mdiConfig,
   }
 
 })
 
 
-function sidebarBlacking(): any[] {
+function sidebarBlacking(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: 'How To Black MIDI',
@@ -121,7 +108,7 @@ function sidebarBlacking(): any[] {
   ]
 }
 
-function sidebarSoftware(): any[] {
+function sidebarSoftware(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: 'Software Tutorials',
@@ -221,7 +208,7 @@ function sidebarSoftware(): any[] {
   ]
 }
 
-function sidebarSoundfont(): any[] {
+function sidebarSoundfont(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: 'How To Soundfont',
@@ -250,7 +237,7 @@ function sidebarSoundfont(): any[] {
   ]
 }
 
-function sidebarIndices(): any[] {
+function sidebarIndices(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: 'Indices',
