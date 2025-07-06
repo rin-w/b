@@ -1,4 +1,4 @@
-# A Better *Domino* Experience
+# Domino MIDI Editor Experience Improvement
 
 Below are optional features you can make use of when composing a Black MIDI, or any kind MIDI.
 

@@ -1,13 +1,14 @@
-# Setting up *Domino*
+# Domino MIDI Editor Setup
 
-Domino is a freeware dedicated MIDI editor written in C++ exclusively for the Windows operating system.
+Domino is a freeware dedicated MIDI editor developed independently by takabosoft. It is written in C++ exclusively for the Microsoft Windows operating system.
 
+Domino proves to be a very performant MIDI editor for blackers which makes it a prominent choice for people who want to make huge black MIDIs.
 
 ## Installation
 
 ### Download {data-step="1"}
 
-Here are some source links for various versions of the application:
+The following are some of the download links for various versions of the application:
 
 - [Domino_143e_pre-patched (.zip)][dome] (modded, v1.43, x86, English)
 - [Domino144 (.zip)][doms] (official, v1.44, x86, Japanese)
@@ -21,7 +22,7 @@ The third link is a beta release that runs at 64-bit. This version can handle mu
 
 ### Extract {data-step="2"}
 
-The downloaded zip files can be extracted using any zip extraction tools such as [7-Zip][7z], [WinRAR][winrar], or the File Explorer.
+The downloaded zip files can be extracted using any zip extraction tools such as [7-Zip][7z], [WinRAR][winrar], or the file explorer.
 
 ![extract files context menu in file explorer](/domino/extractzip.webp)
 
@@ -79,13 +80,13 @@ Two of these definitions can be assigned to *OmniMIDI* (formerly *Keppy's Synthe
 
 [BASSMIDI OmniMIDI (.xml)](/domino/ks_bass.xml){download}
 
-Click the link above to save it locally in the disk.
+Click the link above to save it locally to the disk.
 
 :::
 
 ::: info
 
-The module above is pre-bundled in the pre-patched Domnino `.zip` in the download links of this page.
+The module above is bundled with the pre-patched Domnino `.zip` in the download links of this page.
 
 :::
 

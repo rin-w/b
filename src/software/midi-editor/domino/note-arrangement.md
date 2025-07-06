@@ -1,4 +1,6 @@
-# Note Arrangement in *Domino*
+# Note Arrangement in Domino MIDI Editor
+
+Domino has features that let the user manipulate notes in various ways. These can be helpful in arranging creative and interesting black MIDI phrases.
 
 ## Quantize and Humanize
 

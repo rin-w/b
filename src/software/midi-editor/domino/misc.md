@@ -1,4 +1,6 @@
-# Miscellaneous *Domino* Wonders
+# Specifics of Domino MIDI Editor
+
+Domino has its own quirks that sets it apart from other MIDI editors. Understanding some of these concepts could help in building MIDIs or troubleshooting issues. 
 
 ## The Event List
 
