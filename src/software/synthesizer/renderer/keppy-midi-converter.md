@@ -4,6 +4,8 @@ Keppy's MIDI Converter (KMC) is a MIDI-based audio renderer developed by Keppy's
 
 KMC is typically used to surpass the limitations of synthesizer playback when playing black MIDIs.
 
+It was previously known as Keppy's Spartan MIDI Converter in its early release.
+
 It was superseded by a newer program, [OmniConverter](./omniconverter), by the same developer.
 
 ## Installation
