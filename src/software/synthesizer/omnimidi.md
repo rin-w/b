@@ -1,6 +1,8 @@
 # OmniMIDI
 
-OmniMIDI is a MIDI-based software synthesizer created by Keppy’s Software[^a] for the Microsoft Windows operating system. The synth was originally named *Keppy's MIDI Driver*, which was then renamed to *Keppy's Synthesizer*, and finally *OmniMIDI*, with a complete rewrite starting version 15 (also known as *OmniMIDI v2*).
+OmniMIDI is a MIDI-based software synthesizer created by Keppy’s Software[^a] for the Microsoft Windows operating system. It was created to optimize live playback of black MIDIs which no other synthesizer could handle smoothly. It has grown to become a general MIDI synthesizer for professionals.
+
+The synth was originally named *Keppy's MIDI Driver*, which was then renamed to *Keppy's Synthesizer*, and finally *OmniMIDI*, with a complete rewrite starting version 15 (also known as *OmniMIDI v2*).
 
 ## Installation
 
