@@ -1,6 +1,6 @@
 # The *Domino* MIDI Basics
 
-This article will talk about fundamental operations in-depth from placing your first note to exporting a MIDI file.
+This article will talk about fundamental operations of Domino in-depth from placing your first note to exporting a MIDI file. This will be the first steps to learn when trying to create a black MIDI as a beginner.
 
 ## Managing Tracks
 
