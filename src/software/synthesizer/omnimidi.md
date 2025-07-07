@@ -96,7 +96,7 @@ The setting `Disable fade-out when killing an old note` means that during playba
 
 ::: details Elaboration about sequential note cut-offs
 
-For example, if the maximum voice count is 3 for the figure below, the violet note will get cut off when the play-head starts triggering the 4th note. The blue note will get cut off next if your play-head reaches the 5th note. Finally, if two notes with the same starting point triggers, two other sustained notes at the same time must also get cut off if there are still 3 other notes playing.
+For example, if the maximum voice count is 3 for the figure below, the violet note will get cut off when the play-head starts triggering the 4th note. The blue note will get cut off next if the play-head reaches the 5th note. Finally, if two notes with the same starting point triggers, two other sustained notes at the same time must also get cut off if there are still 3 other notes playing.
 
 ![only release oldest instance for note off illustration](/ks/illusoldestintancenoteoff.webp)
 
@@ -108,7 +108,7 @@ Setting an optimized `Driver voice limit` of 1000 gives a reasonable room for th
 
 To avoid this, the synth uses the maximum rendering time setting to automatically enforce a voice limit based on CPU load, even if it's lower than the user-specified limit.
 
-For example, if you've set a limit of 2000 voices, but your CPU can only handle 1800 voices at 90% usage, and you've configured the maximum rendering time to 75%, the synth will attempt to cap the polyphony to around 1500.
+For example, if the voice limit is 2000, but the CPU can only handle 1800 voices at 90% usage, and the maximum rendering time is configured at 75%, the synth will attempt to cap the polyphony to ~1500.
 
 `Output sample rate` is exactly what [sample rate][samp] the synth should play. A lower rate will result in slightly better playback performance, but lower sound quality.
 
@@ -125,9 +125,10 @@ For example, if you've set a limit of 2000 voices, but your CPU can only handle 
 
 ## Miscellaneous
 
-Here are some programs where you can use OmniMIDI:
+Here are some programs where OmniMIDI is typically used by blackers:
 
 - [Piano From Above](/software/midi-visualizer/piano-from-above)
+- [Domino MIDI Sequencer](/software/midi-editor/domino/intro)
 
 ## Footnotes
 
