@@ -2,6 +2,8 @@
 
 This article set for learning various operations in Domino was made for new blackers who gained interest in black MIDIs and chose Domino on their first making or editing journey.
 
+![domino project screenshot](/domino/domino.webp)
+
 To start, navigate the sidebar or check out on following list of Domino articles:
 
 - [Setup](./setup)
@@ -9,3 +11,4 @@ To start, navigate the sidebar or check out on following list of Domino articles
 - [Note Arrangement](./note-arrangement)
 - [User Experience](./user-experience)
 - [Miscellaneous](./misc)
+

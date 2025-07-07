@@ -1,6 +1,6 @@
 # Domino MIDI Editor Setup
 
-Domino is a freeware dedicated MIDI editor developed independently by takabosoft. It is written in C++ exclusively for the Microsoft Windows operating system.
+Domino MIDI Sequencer is a freeware dedicated MIDI editing software developed independently by takabosoft. It is written in C++ exclusively for the Microsoft Windows operating system.
 
 Domino proves to be a very performant MIDI editor for blackers which makes it a prominent choice for people who want to make huge black MIDIs.
 
