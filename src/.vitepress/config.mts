@@ -32,7 +32,7 @@ export default defineConfig({
       { text: 'soft', link: '/software/pitch' },
       { text: 'black', link: '/blacking/how-to/black' },
       //{ text: 'sound', link: '/soundfont/how-to/intro' },
-      //{ text: 'index', link: '/indices/pitch' },
+      { text: 'index', link: '/indices/pitch' },
     ],
 
     socialLinks: [
@@ -254,8 +254,8 @@ function sidebarIndices(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         {
-          text: 'Black MIDI Terms',
-          // link: 'black-midi-terminologies',
+          text: 'Black MIDI Glossary',
+          // link: 'black-midi-glossary',
         },
         {
           text: 'Soundfont Terms',
@@ -263,18 +263,22 @@ function sidebarIndices(): DefaultTheme.SidebarItem[] {
         },
         {
           text: 'List of MIDI Editors',
-          // link: 'list-of-midi-editors',
+          link: 'list-of-midi-editors',
         },
         {
           text: 'List of MIDI Visualizers',
-          // link: 'list-of-midi-visualizers',
+          link: 'list-of-midi-visualizers',
         },
         {
-          text: 'List of MIDI Generators',
-          // link: 'list-of-midi-generators',
+          text: 'List of MIDI-exclusive Synthesizers',
+          link: 'list-of-midi-synthesizers',
         },
         {
-          text: 'List of the GOAT Blackers',
+          text: 'List of MIDI-based Generators',
+          link: 'list-of-midi-generators',
+        },
+        {
+          text: 'List of GOAT Blackers',
           // link: 'list-of-the-goat-blackers',
         },
       ]
