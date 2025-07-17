@@ -177,9 +177,9 @@ function sidebarSoftware(): DefaultTheme.SidebarItem[] {
     },
     {
       text: 'MIDI Generators',
-      base: '/software/midi-generators/',
+      base: '/software/midi-generator/',
       items: [
-        { text: 'ImageToMIDI', /*link: 'image-to-midi'*/ },
+        { text: 'ImageToMIDI', link: 'image-to-midi-converter' },
         { text: 'Color Events', /*link: 'color-events'*/ },
       ]
     },
