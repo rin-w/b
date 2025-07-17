@@ -132,7 +132,7 @@ function sidebarSoftware(): DefaultTheme.SidebarItem[] {
           base: '/software/synthesizer/renderer/',
           collapsed: false,
           items: [
-            //{ text: "OmniConverter" , link: 'omni-converter' },
+            { text: "OmniConverter" , link: 'omniconverter' },
             { text: "Keppy's MIDI Converter" , link: 'keppy-midi-converter' },
           ]
         },
