@@ -28,11 +28,78 @@ export default defineConfig({
     logo: '/favicon.ico',
 
     nav: [
-      //{ text: 'blog', link: '/blog' },
-      { text: 'soft', link: '/software/pitch' },
-      { text: 'black', link: '/blacking/how-to/black' },
+      //{ text: 'Blog', link: '/blog' },
+      {
+        text: 'Black MIDI Guides',
+        activeMatch: '/blacking',
+        items: [
+          {
+            text: 'Introduction',
+            link: '/blacking/how-to/black',
+          },
+          {
+            text: 'How to play Black MIDIs',
+            link: '/blacking/how-to/play-black-midis',
+          },
+          {
+            text: 'How to create Black MIDIs',
+            link: '/blacking/how-to/make-black-midis',
+          },
+          {
+            text: 'How to make Black MIDI videos',
+            link: '/blacking/how-to/make-black-midi-videos',
+          },/*
+          {
+            text: 'Black MIDI Composing Tips',
+            link: '/blacking/how-to/make-black-midi-videos',
+          },*/
+        ]
+      },
+      {
+        text: 'Software Guides',
+        activeMatch: '/software',
+        items: [
+          {
+            text: 'OmniMIDI',
+            link: '/software/synthesizer/omnimidi',
+          },
+          {
+            text: 'Piano From Above',
+            link: '/software/midi-visualizer/piano-from-above',
+          },
+          {
+            text: 'Domino',
+            link: '/software/midi-editor/domino/setup',
+          },
+        ]
+      },
       //{ text: 'sound', link: '/soundfont/how-to/intro' },
-      { text: 'index', link: '/indices/pitch' },
+      {
+        text: 'Black MIDI Lists',
+        activeMatch: '/indices',
+        items: [
+          /*{
+            text: 'Black MIDI Glossary',
+            link: '/indices/black-midi-glossary',
+          },
+          {
+            text: 'Soundfont Glossary',
+            link: '/indices/soundfont-terminologies',
+          },*/
+          {
+            text: 'MIDI Visualizers',
+            link: '/indices/list-of-midi-visualizers',
+          },
+          {
+            text: 'MIDI Processors',
+            link: '/indices/list-of-midi-generators',
+          },/*
+          {
+            text: 'The GOATs of Black MIDI',
+            link: '/indices/list-of-the-goat-blackers',
+          }*/
+        ]
+      },
     ],
 
     socialLinks: [
