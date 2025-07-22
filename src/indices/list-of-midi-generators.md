@@ -40,7 +40,7 @@ Every link in the table's cells is external
     </tr>
     <tr>
       <td>Simple AF Converter (SAFC)</td>
-      <td>MIDI processing utility (merge, repair, split tracks with multiple channels, etc.)</td>
+      <td>MIDI processing utility (split tracks with multiple channels, merge, repair, etc.)</td>
       <td>2019/01/03</td>
       <td>
         <a href="https://github.com/DixelU/SAFC">
@@ -65,6 +65,25 @@ Every link in the table's cells is external
       <td>2025/05/01</td>
       <td>
         <a href="https://github.com/GamingMidi">GamingMIDI</a>
+      </td>
+    </tr>
+    <tr>
+      <td>Simple And Fast Overlaps Remover (SAFOR)</td>
+      <td>Same track note overlap extinguisher</td>
+      <td>2019/01/25</td>
+      <td>
+        <a href="https://github.com/DixelU/SAFOR">
+          DixelU
+        </a>
+        <span>/ Alexander Verevkin</span>
+      </td>
+    </tr>
+    <tr>
+      <td>midi2flp</td>
+      <td>Converts MIDI file to FL Studio project files <code>*.flp</code></td>
+      <td>2019/06/29</td>
+      <td>
+        <a href="https://github.com/SatyrDiamond/midi2flp">SatyrDiamond</a>
       </td>
     </tr>
     <tr>

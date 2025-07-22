@@ -73,6 +73,14 @@ Every link in the table's cells is external
       </td>
     </tr>
     <tr>
+      <td>Soundfont MIDI Player</td>
+      <td>Windows</td>
+      <td>2016/05/21</td>
+      <td>
+        <a href="https://www.kvraudio.com/product/soundfont-midi-player-by-falcosoft">Falcosoft</a>
+      </td>
+    </tr>
+    <tr>
       <td>BassMidi VSTi</td>
       <td>Windows (VST)</td>
       <td>2017/01/09</td>
@@ -100,6 +108,14 @@ Every link in the table's cells is external
       <td>2016/09/25 - 2020/06/08</td>
       <td>
         <a href="https://github.com/89Mods/TheGhastModding-s-Synthesizer">TheGhastModding</a>
+      </td>
+    </tr>
+    <tr>
+      <td>BASSMIDI test</td>
+      <td>Windows</td>
+      <td></td>
+      <td>
+        <a href="https://www.un4seen.com/download.php?bassmidi24">un4seen</a>
       </td>
     </tr>
   </tbody>

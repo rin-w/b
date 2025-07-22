@@ -81,12 +81,32 @@ Every link in the table's cells is external
       </td>
     </tr>
     <tr>
+      <td>Pianofall</td>
+      <td>3D visualizer and player</td>
+      <td>2015/09/14 - 2021/12/13</td>
+      <td>
+        <a href="https://github.com/ste-art/Pianofall">Stepan Artemyev</a>
+      </td>
+    </tr>
+    <tr>
       <td>Ultralight MIDI Player</td>
-      <td>Upright piano roll and player</td>
+      <td>Upright piano roll, player, and renderer</td>
       <td>2017</td>
       <td>
         <a href="https://pipiraworld.web.fc2.com/ump/en.html">PipiraMine</a>
       </td>
+    </tr>
+    <tr>
+      <td>MIDI Voyager</td>
+      <td>Piano roll and lyrics visualizer, player, audio renderer, for mobile devices</td>
+      <td>2014 - 2024</td>
+      <td>bytebolt</td>
+    </tr>
+    <tr>
+      <td>MIDI Jam</td>
+      <td>3D visualizer</td>
+      <td>until 2007</td>
+      <td><a href="http://gamesbyscott.com/midijam.htm">Scott Haag</a></td>
     </tr>
     <tr>
       <td>pfavizkhang</td>
@@ -117,13 +137,21 @@ Every link in the table's cells is external
     <tr>
       <td>
         <a href="https://es.wikipedia.org/wiki/Vanbasco">
-          vanBasco Karaoke Player
+          vanBasco's Karaoke Player
         </a>
       </td>
       <td>Piano keyboard and lyrics visualizer and player</td>
       <td>1998 - 2004</td>
       <td>
         <a href="https://www.softpedia.com/get/Multimedia/Audio/Audio-Players/vanBasco-s-Karaoke-Player.shtml">vanBasco Software</a>
+      </td>
+    </tr>
+    <tr>
+      <td>TheGhastModding's MIDI Video Generator</td>
+      <td>Upright piano roll renderer</td>
+      <td>2016/06/09 - 2020/06/11</td>
+      <td>
+        <a href="https://github.com/89Mods/TheGhastModdings-MIDI-Video-Generator">TheGhastModding</a>
       </td>
     </tr>
     <tr>
@@ -134,6 +162,14 @@ Every link in the table's cells is external
         <a href="https://sites.google.com/view/danidanijr/work/projects/mgr">
           Danidanijr
         </a>
+      </td>
+    </tr>
+    <tr>
+      <td>MPGL</td>
+      <td>Upright piano roll and player</td>
+      <td>2025/03/20</td>
+      <td>
+        <a href="https://github.com/SonoSooS/_MPGL">Sono</a>
       </td>
     </tr>
     <tr>
@@ -179,6 +215,20 @@ Every link in the table's cells is external
       <td>
         <a href="https://github.com/GamingMidi/Pianesia">GamingMIDI</a>
       </td>
+    </tr>
+    <tr>
+      <td>midiplayer3</td>
+      <td>Upright piano roll and player</td>
+      <td>2017 - 2022/05/12</td>
+      <td>
+        <a href="https://github.com/axpokl/midiplayer3-for-BLACK-MIDI">axpokl</a>
+      </td>
+    </tr>
+    <tr>
+      <td>BeatMIDI</td>
+      <td>Upright piano roll and player</td>
+      <td></td>
+      <td>TheGhastModding</td>
     </tr>
   </tbody>
 </table>

@@ -99,6 +99,14 @@ Every link in the table's cells is external
       </td>
     </tr>
     <tr>
+      <td>signal</td>
+      <td>dedicated</td>
+      <td>since 2016</td>
+      <td>
+        <a href="https://github.com/ryohey/signal">ryohey</a>
+      </td>
+    </tr>
+    <tr>
       <td>MIDIEditor</td>
       <td>dedicated</td>
       <td>until 2019/10/20</td>
@@ -124,6 +132,14 @@ Every link in the table's cells is external
       <td>since 2008/12/27</td>
       <td>
         <a href="https://openmidiproject.opal.ne.jp/Sekaiju_en.html">kuzu</a>
+      </td>
+    </tr>
+    <tr>
+      <td>BRELS MIDI Editor</td>
+      <td>dedicated</td>
+      <td>2003/07/13 -2011/04/23</td>
+      <td>
+        <a href="https://breno.sarmen.to/midi/">Breno Sarmento</a>
       </td>
     </tr>
   </tbody>
