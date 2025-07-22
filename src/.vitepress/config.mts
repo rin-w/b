@@ -68,6 +68,10 @@ export default defineConfig({
 
   },
 
+  sitemap: {
+    hostname: 'https://rin-w.github.io'
+  },
+
   lastUpdated: true,
 
   markdown: {
