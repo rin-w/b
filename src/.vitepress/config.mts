@@ -136,7 +136,8 @@ export default defineConfig({
   },
 
   sitemap: {
-    hostname: 'https://rin-w.github.io'
+    // it doesnt work for gh pages oof
+    //hostname: 'https://rin-w.github.io/b'
   },
 
   lastUpdated: true,
