@@ -4,7 +4,7 @@ This program is intended to remove note art or "silent" notes from black MIDIs.
 
 ::: tip ATTACHMENT
 
-[MidiNoteThreshold (.exe)](/misc/MidiNoteThreshold.exe){download}
+[MidiNoteThreshold (.exe)](/misc/MidiNoteThreshold.exe)
 
 Click the link above to save it to your computer.
 

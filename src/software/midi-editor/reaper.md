@@ -83,9 +83,9 @@ Alternatively, you can use this pre-made template so you don't have to do all of
 
 ::: tip ATTACHMENT
 
-[REAPER Template - 16 MIDI out (.rpp)](/reaper/MIDI_16OUT.rpp){download}
+[REAPER Template - 16 MIDI out (.rpp)](/reaper/MIDI_16OUT.rpp)
 
-Click the link above to save it to your computer.
+Click the link above to save it to your computer. If it opens the text contents instead, you can save the page by pressing `Ctrl` + `S` retaining the file extension.
 
 :::
 

@@ -2,8 +2,6 @@ import type { DefaultTheme } from 'vitepress/types'
 import { defineConfig } from 'vitepress'
 import mdiConfig from './plugin/markdown-it/config'
 
-process.env.VITE_EXTRA_EXTENSIONS = 'rpp'
-
 export default defineConfig({
 
   base: '/b/',

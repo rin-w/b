@@ -4,7 +4,7 @@ This program vertically flips a MIDI's note arrangement (from a standard piano r
 
 ::: tip ATTACHMENT
 
-[MIDIMirror (.exe)](/misc/MIDIMirror.exe){download}
+[MIDIMirror (.exe)](/misc/MIDIMirror.exe)
 
 Click the link above to save it to your computer.
 
