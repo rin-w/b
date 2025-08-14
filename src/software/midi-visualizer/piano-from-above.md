@@ -1,8 +1,8 @@
-# Using *Piano From Above*
-###### *For beginners, probably*
+# Piano From Above
+
 ::: info 
 
-Piano From Above by Brian Pantano is a visualizer and player for general MIDIs.
+Piano From Above is a visualizer and player for general MIDIs. It was created by Brian Pantano as an alternative to Synthesia.
 
 :::
 
@@ -57,7 +57,7 @@ A new window will appear prompting you to select a MIDI file to play.
 
 ### Setting up the synthesizer
 
-Simply open the `Preferences` window through the menu or press `Ctrl` + `P`
+The synthesizer will alow sound playback to be audible when playing MIDIs. Simply open the `Preferences` window through the menu or press `Ctrl` + `P`
 
 ![piano from above preferences option from Options menu](/pfa/synth1.webp)
 
@@ -67,7 +67,35 @@ Then go to the `Audio` tab and select the synthesizer you want to use.
 
 Click OK and it should take effect immediately (for most cases).
 
+::: tip
+
+For black MIDIs, a performant synthesizer is typically used, particularly [OmniMIDI](/software/synthesizer/omnimidi).
+
+:::
+
 ## Advanced Configuration
+
+### Configurator
+
+A convenient program that edits PFA's configuration is available for use. It is particularly useful for setting up note colors.
+
+<!--
+i dont think we need two previews
+![piano from above configurator window](/pfa/pfa-configurator.webp)
+-->
+
+![piano from above configurator colors tab](/pfa/pfa-configurator-colors.webp)
+
+::: tip ATTACHMENT
+
+[PianoFromAboveConfigurator (.exe)](/pfa/PianoFromAboveConfigurator.exe)
+
+Click the link above to save it to your computer.
+
+:::
+
+If the program does not open, the configuration could be not readable. To fix this, rebuild the config by deleting the `.xml` file (refer below) and reopening PFA.
+
 
 ### Configuration file
 

@@ -270,6 +270,7 @@ function sidebarSoftware(): DefaultTheme.SidebarItem[] {
       text: 'Miscellaneous',
       base: '/software/misc/',
       items: [
+        { text: 'SAFC', /*link: 'simple-af-converter-safc'*/ },
         { text: '4GB Patch', link: '4gb-patch' },
         { text: 'MIDI Visualizer Framedump', /*link: 'synthesia-framedump'*/ },
         { text: 'MIDI Mirror', link: 'midi-mirror' },
