@@ -98,6 +98,7 @@ Next thing you would want to do is to change how it sounds overall. The biggest 
 - [Soundfonts 4U][s4u] (archive)
 - [Musical Artifacts][ma]
 - [Musescore][ms]
+- [Black MIDI Community Hub][bmch-sfs] (Discord forum channel)
 
 After you have setup your software synth, you can now configure your MIDI player to use it.
 
@@ -125,10 +126,11 @@ Here are some detailed instructions for some of the listed MIDI players:
 [mv-i]: <https://apps.APple.com/us/app/midi-voyager/id1265602132>
 [bass]: <https://www.un4seen.com/bass.html#addons>
 
-[mbms]: <https://github.com/MyBlackMIDIScore?tab=repositories&q=soundfont&type=source>
+[mbms]: <https://github.com/MyBlackMIDIScore?tab=repositories&q=soundfont>
 [carlos-sf-drive]: <https://drive.google.com/drive/folders/0B-jbdgbiY_-YMGU1M2dqbkFmUHc>
 [s4u]: <https://huggingface.co/datasets/projectlosangeles/soundfonts4u/tree/main>
 [ma]: <https://musical-artifacts.com/artifacts?order=most_downloaded&tags=piano>
 [ms]: <https://musescore.org/en/handbook/3/soundfonts-and-sfz-files#specialised>
+[bmch-sfs]: <https://discord.com/channels/139268201803546624/1355685421425627227>
 
 [vms-tutorial]: <https://midkar.com/soundfonts/coolsoft.html>
