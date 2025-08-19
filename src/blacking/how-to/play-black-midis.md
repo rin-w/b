@@ -88,14 +88,14 @@ To install the program you have picked, you either directly run the .exe file di
 
 Here are some detailed instructions for some of the listed programs: 
 
-- [How to install Keppy's Synthesizer on Windows](/software/synthesizer/keppy-synth.html#installation)
-- [VirtualMIDISynth Setup Tutorial][vms-tutorial]
+- [How to install Keppy's Synthesizer on Windows](/software/synthesizer/omnimidi#installation)
+- [VirtualMIDISynth Setup Tutorial][vms-tutorial] (archived)
 
 Next thing you would want to do is to change how it sounds overall. The biggest factor for this is the *soundfont*. These files are usually named as `*.sf2` or `*.sfz`. You can either download an already existing soundfont, or [make one yourself](/soundfont/how-to/intro). For beginners, here are some sites where you can quickly get a soundfont:
 
 - [MBMS' soundfont repositories][mbms]
 - [Carlos S.M. public drive soundfonts][carlos-sf-drive]
-- [Soundfonts 4U][s4u] (archive)
+- [Soundfonts 4U][s4u] (partially archived)
 - [Musical Artifacts][ma]
 - [Musescore][ms]
 - [Black MIDI Community Hub][bmch-sfs] (Discord forum channel)
@@ -133,4 +133,4 @@ Here are some detailed instructions for some of the listed MIDI players:
 [ms]: <https://musescore.org/en/handbook/3/soundfonts-and-sfz-files#specialised>
 [bmch-sfs]: <https://discord.com/channels/139268201803546624/1355685421425627227>
 
-[vms-tutorial]: <https://midkar.com/soundfonts/coolsoft.html>
+[vms-tutorial]: <https://web.archive.org/web/20230613203429/https://midkar.com/soundfonts/coolsoft.html>
