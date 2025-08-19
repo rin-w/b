@@ -81,11 +81,27 @@ Every link in the table's cells is external
       </td>
     </tr>
     <tr>
+      <td>Embers</td>
+      <td>3D piano roll, player, and renderer</td>
+      <td>2019 - 2021/06/03</td>
+      <td>
+        <a href="https://github.com/lyricwulf/Embers/releases">LyricWulf</a>
+      </td>
+    </tr>
+    <tr>
       <td>Pianofall</td>
       <td>3D visualizer and player</td>
       <td>2015/09/14 - 2021/12/13</td>
       <td>
         <a href="https://github.com/ste-art/Pianofall">Stepan Artemyev</a>
+      </td>
+    </tr>
+    <tr>
+      <td>Sharpfall</td>
+      <td>Pianofall clone</td>
+      <td>2024</td>
+      <td>
+        <a href="https://github.com/EmK530/Sharpfall">EmK530</a>
       </td>
     </tr>
     <tr>
@@ -214,6 +230,22 @@ Every link in the table's cells is external
       <td>2024/07/05</td>
       <td>
         <a href="https://github.com/GamingMidi/Pianesia">GamingMIDI</a>
+      </td>
+    </tr>
+    <!--tr> this doesnt visualize notes oof
+      <td>ConMIDI</td>
+      <td></td>
+      <td>2017 - 2022/05/12</td>
+      <td>
+        <a href="https://github.com/EmK530/ConMIDI">EmK530</a>
+      </td>
+    </tr-->
+    <tr>
+      <td>SharpMIDI</td>
+      <td>Side scrolling piano roll and player</td>
+      <td>2022 - 2023/06/21</td>
+      <td>
+        <a href="https://github.com/EmK530/SharpMIDI">EmK530</a>
       </td>
     </tr>
     <tr>

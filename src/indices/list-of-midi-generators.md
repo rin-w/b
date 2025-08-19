@@ -131,6 +131,30 @@ Every link in the table's cells is external
       </td>
     </tr>
     <tr>
+      <td>Keppy's Counter Generator</td>
+      <td>MIDI playback head note count video generator/animator</td>
+      <td>2017/06/23 - 2018/03/27</td>
+      <td>
+        <a href="https://github.com/KeppySoftware/KeppyCounterGenerator">Keppy's Software</a>
+      </td>
+    </tr>
+    <tr>
+      <td>CJC's Toolbox</td>
+      <td>MIDI data video counter, merger, same track note overlap removal etc.</td>
+      <td></td>
+      <td>
+        <a href="https://github.com/hccdy/CJC-Toolbox">Conjac Jelly Charlieyan</a>
+      </td>
+    </tr>
+    <tr>
+      <td>CJC's Toolbox Reborn</td>
+      <td>A continuation of CJC's Toolbox</td>
+      <td></td>
+      <td>
+        <a href="https://github.com/Ace-tyl/CJC-Toolbox-Reborn">Ace-tyl</a>
+      </td>
+    </tr>
+    <tr>
       <td>forte</td>
       <td>Generates audio files using soundfonts</td>
       <td>2023/01/25 - 2023/09/25</td>

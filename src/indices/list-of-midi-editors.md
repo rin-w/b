@@ -75,6 +75,14 @@ Every link in the table's cells is external
       </td>
     </tr>
     <tr>
+      <td><a href="https://ja.wikipedia.org/wiki/Music_Studio">Music Studio</a> (Producer)</td>
+      <td>integrated</td>
+      <td>until 2008/04/04</td>
+      <td>
+        <a href="https://www.frieve.com/software/music-studio">Frieve</a>
+      </td>
+    </tr>
+    <tr>
       <td>
         <a href="https://en.wikipedia.org/wiki/Anvil_Studio">
           Anvil Studio
