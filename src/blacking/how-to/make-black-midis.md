@@ -47,16 +47,16 @@ You are almost done with setting things up and pretty much ready to go blacking.
 
 ## Becoming the very best blacker in the world {data-step="4"}
 
-[^!] There is no such thing as the best way to make a Black MIDI (at least as what agreed upon). There are certain ways to black which a particular sum of population find acceptable/satisfactory or 'of quality', that are very loosely defined in the community. One notorious concept of blacking a MIDI known as *Korean style* is heavily cited as 'quality' due to its author's intricate attention to details when making it. What makes a Black MIDI *Korean style* is already debatable, making every other Black MIDIs very hard to categorize, and even if it is done so, it almost always meets a vague criteria. The community would often say terminologies like *phrases*, but what is a *phrase*? 
+There is no such thing as the best way to make a Black MIDI (at least as what agreed upon). There are certain ways to black which a particular sum of population find acceptable/satisfactory or 'of quality', that are very loosely defined in the community. One notorious concept of blacking a MIDI known as *Korean style* is heavily cited as 'quality' due to its author's intricate attention to details when making it. What makes a Black MIDI *Korean style* is already debatable, making every other Black MIDIs very hard to categorize, and even if it is done so, it almost always meets a vague criteria. The community would often say terminologies like *phrases*, but what is a *phrase*? 
 
 There are a lot of things to cover and question about crafting a Black MIDI, and making discussions about it often ends up with no concrete conclusions, but filled with valid learnings which helps a lot in improving blacking skills. With that said, here are some articles about making Black MIDIs:
 
 - [ScubDomino's Guide][sdg]
 - [Infernis' Guide][infg]
+- [BedrockSolid's Guide][bdr]
 
 ## Footnotes
 
-[^!]: This section should be improved.
 
 [^a]: 
 
@@ -87,3 +87,4 @@ There are a lot of things to cover and question about crafting a Black MIDI, and
 [fli]: <https://apps.apple.com/us/app/fl-studio-mobile/id432850619>
 [sdg]: <https://i.opnxng.com/r/BlackMIDI/comments/94vblb/how_to_make_your_melodies_not_sound_like_a_mess/>
 [infg]: <https://i.opnxng.com/r/BlackMIDI/comments/958lzp/so_just_how_exactly_are_black_midis_made/>
+[bdr]: <https://bedrocksolidmc.wixsite.com/blackmidi/guide1>
