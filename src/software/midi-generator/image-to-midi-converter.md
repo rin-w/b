@@ -13,7 +13,7 @@ The program is portable and is minimal in installation.
 
 Provided below is the download link to ImageToMidi
 
-- [ImageToMidi  (.exe)][gh] (Windows)
+- [ImageToMidi (.exe)][gh] (Windows)
 
 ### Run {data-step="2"}
 

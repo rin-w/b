@@ -1,10 +1,6 @@
 # Piano From Above
 
-::: info 
-
-Piano From Above is a visualizer and player for general MIDIs. It was created by Brian Pantano as an alternative to Synthesia.
-
-:::
+Piano From Above is a visualizer and player for general MIDIs. It was created by Brian Pantano as an alternative to Synthesia - another training software for playing piano.
 
 ## Installation
 

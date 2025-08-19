@@ -1,6 +1,6 @@
 # OmniMIDI
 
-OmniMIDI is a MIDI-based software synthesizer created by Keppy’s Software[^a] for the Microsoft Windows operating system. It was created to optimize live playback of black MIDIs which no other synthesizer could handle smoothly. It has grown to become a general MIDI synthesizer for professionals.
+OmniMIDI is a MIDI-based software synthesizer created by [Keppy's Software](https://keppysoftware.github.io) for the Microsoft Windows operating system. It was created to optimize live playback of black MIDIs which no other synthesizer can desirably perform at the time. It has grown to become a general MIDI synthesizer for professionals.
 
 The synth was originally named *Keppy's MIDI Driver*, which was then renamed to *Keppy's Synthesizer*, and finally *OmniMIDI*, with a complete rewrite starting version 15 (also known as *OmniMIDI v2*).
 
@@ -39,7 +39,7 @@ The buttons on the left side pertains to operations on the current soundfont lis
 
 For example, to add a soundfont, click the plus button or drag and drop the soundfont file from a file explorer window.
 
-![keppy synth config pointed at button for adding soundfont](/om/add-soundfont-button.webp)
+!omnimidi config pointed at button for adding soundfont](/om/add-soundfont-button.webp)
 
 #### Toggling soundfonts
 
@@ -129,11 +129,6 @@ Here are some programs where OmniMIDI is typically used by blackers:
 
 - [Piano From Above](/software/midi-visualizer/piano-from-above)
 - [Domino MIDI Sequencer](/software/midi-editor/domino/intro)
-
-## Footnotes
-
-[^a]: As described in https://keppysoftware.github.io/
-
 
 [gh]: <https://github.com/KaleidonKep99/Keppy-s-MIDI-Driver/releases>
 [sft]: <https://www.softpedia.com/get/Multimedia/Audio/Audio-Mixers-Synthesizers/Keppys-Synthesizer.shtml>
