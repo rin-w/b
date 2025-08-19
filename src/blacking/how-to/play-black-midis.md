@@ -94,7 +94,8 @@ Here are some detailed instructions for some of the listed programs:
 Next thing you would want to do is to change how it sounds overall. The biggest factor for this is the *soundfont*. These files are usually named as `*.sf2` or `*.sfz`. You can either download an already existing soundfont, or [make one yourself](/soundfont/how-to/intro). For beginners, here are some sites where you can quickly get a soundfont:
 
 - [MBMS' soundfont repositories][mbms]
-- [Soundfonts 4U][s4u]
+- [Carlos S.M. public drive soundfonts][carlos-sf-drive]
+- [Soundfonts 4U][s4u] (archive)
 - [Musical Artifacts][ma]
 - [Musescore][ms]
 
@@ -125,7 +126,8 @@ Here are some detailed instructions for some of the listed MIDI players:
 [bass]: <https://www.un4seen.com/bass.html#addons>
 
 [mbms]: <https://github.com/MyBlackMIDIScore?tab=repositories&q=soundfont&type=source>
-[s4u]: <https://sites.google.com/site/soundfonts4u#h.ede42a23878f969_63>
+[carlos-sf-drive]: <https://drive.google.com/drive/folders/0B-jbdgbiY_-YMGU1M2dqbkFmUHc>
+[s4u]: <https://huggingface.co/datasets/projectlosangeles/soundfonts4u/tree/main>
 [ma]: <https://musical-artifacts.com/artifacts?order=most_downloaded&tags=piano>
 [ms]: <https://musescore.org/en/handbook/3/soundfonts-and-sfz-files#specialised>
 
