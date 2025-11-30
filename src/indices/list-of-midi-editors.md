@@ -79,7 +79,7 @@ Every link in the table's cells is external
       <td>integrated</td>
       <td>until 2008/04/04</td>
       <td>
-        <a href="https://www.frieve.com/software/music-studio">Frieve</a>
+        <a href="https://www.frieve.com/software/music-studio">Frieve-A</a>
       </td>
     </tr>
     <tr>
